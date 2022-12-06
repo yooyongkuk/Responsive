@@ -6,38 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YAKUSHIMA</title>
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script>
+     $(function(){
+        $(".a").click(function(){
+            $(".b").slideToggle();
+     });
+    });
+
+    $(window).resize(function(){
+        if(window.innerWidth>=768){
+            $('.b').show();
+            }
+        else{
+            $('.b').hide();
+            }
+        });
+    </script>
 </head>
 <body>
-  <header>
-    <div id="container">
-        <div class="container">
-            <h1>YAKUSHIMA</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Mountin</li>
-                    <li><a href="#">Onsen</li>
-                    <li><a href="#">Hotel</li>
-                    <li><a href="#">About</li>
-                    <li><a href="#">Contec</li>
-                </ul>
-            </nav>
-            <div class="icon">
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
-                <a href="#"><img src="" alt=""></a>
+    <div id="wrap">
+        <header>
+            <div class="container">
+                <div class="small">
+                    <h1><a href="">YAKUSHIMA</a></h1>
+                    <img src="img/i.png" class="a">
+                </div>
+                <nav class="b">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Mountin</a></li>
+                        <li><a href="#">Onsen</a></li>
+                        <li><a href="#">Hotel</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contec</a></li>
+                    </ul>
+                </nav>
+                <div class="icon">
+                    <a href="#"><img src="icon/face.png" alt=""></a>
+                    <a href="#"><img src="icon/insta.png" alt=""></a>
+                    <a href="#"><img src="icon/tori.png" alt=""></a>
+                    <a href="#"><img src="icon/w.png" alt=""></a>
+                </div>
+            </div>
+        </header>
+        
+        <div id="slider">
+            <div>    
+                <h1>NEVER STOP EXPLORING</h1>
+                <h3>Yakushima, a UNESCO World Heritage Site with 1,000-year-old trees, <br>pristine seas and Japan's largest turtle colony</h3>
+                <p><a href="#">Book Now!</a></p>
             </div>
         </div>
 
-        <slider id="container">
+        <div class="site-sec">
             <div class="container">
-                <h1>NEVER STOP EXPLORING</h1>
-                <h3></h3>
-                <a href="#">Book Now!</a>
+                <div class="wrap">
+                    <a href="#" class="box"> 
+                        <div class="img" style="background-image:url(img/hart2.jpg) ;">
+                            <h3>Wilson Stump</h3>
+                        </div>
+                    </a> 
+                </div>
+                <div class="wrap">
+                    <a href="#" class="box"> 
+                        <div class="img" style="background-image:url(img/inwang.jpg) ;">
+                            <h3>Niou Sugi</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="wrap">
+                    <a href="#" class="box"> 
+                        <div class="img" style="background-image:url(img/jomon.jpg) ;">
+                            <h3>Jomon Sugi</h3>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </slider>
-    </div>
-  </header>  
+        </div>
+    </div>  
 </body>
 </html>
