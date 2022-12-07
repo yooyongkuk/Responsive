@@ -31,14 +31,14 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
         #slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
         #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1vw;}
         
-        .site-sec{position: relative; width:100%; height:410px; margin: 0; padding: 0; }
+        .site-sec{position: relative; width:100%; height:1160px; margin: 0; padding: 0; }
         .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-items: center; width: 100%; height: auto;margin: 0 auto; }
         .site-sec .container .wrap {width: 96%;height:100%; overflow: hidden;  padding: 4px;}
         .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
         .site-sec .container .box .img{width:100%; height: 100%;background-size: cover; background-position: center;}
         .site-sec .container .wrap .box h3{position: absolute; bottom: 10%;left: 50%; transform: translate(-50%,-70%);margin: 0 auto; color: white; font-size: 1vw;}
-        .site-sec .container {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-25%);}
+        .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
         .site-sec .container .box .img:hover{transform:scale(1.03) ;}
         .site-sec .container .wrap .box h3:hover{font-size: 1.2vw; color: coral;}
 
