@@ -31,26 +31,44 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
         #slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
         #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1vw;}
         
-        .site-sec{position: relative; width:100%; height:1160px; margin: 0; padding: 0; }
+        .site-sec{position: relative; width:100%; height:1120px; margin: 0; padding: 0; }
         .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-items: center; width: 100%; height: auto;margin: 0 auto; }
+        .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
         .site-sec .container .wrap {width: 96%;height:100%; overflow: hidden;  padding: 4px;}
         .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
         .site-sec .container .box .img{width:100%; height: 100%;background-size: cover; background-position: center;}
         .site-sec .container .wrap .box h3{position: absolute; bottom: 10%;left: 50%; transform: translate(-50%,-70%);margin: 0 auto; color: white; font-size: 1vw;}
-        .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
         .site-sec .container .box .img:hover{transform:scale(1.03) ;}
         .site-sec .container .wrap .box h3:hover{font-size: 1.2vw; color: coral;}
 
-        .site-sec2{position: relative; width:100%; height:410px; margin: 0; padding: 0; }
+        .site-sec2{position: relative; width:100%; height:640px; margin: 0; padding: 0; }
         .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-items: center; width: 100%; height: auto;margin: 0 auto; }
-        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:400px; overflow: hidden;text-align: center; }
+        .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
+        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:200px; overflow: hidden;text-align: center; 
+                background-color: beige; margin: 10px 0 0 0 ;}
         .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 2vw; color: coral;}
         .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1vw; color: #666;text-align: left ;}
-        .site-sec2 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: 1vw;}
+        .site-sec2 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1vw;}
         .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1vw;}
         .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
+
+        .site-sec3{position: relative; width: 100%; height: 700px; margin: 0; padding: 0; background-color: aliceblue;}
+        .site-sec3 .container{width: 100%; height: auto;margin: 0 auto;}
+        .site-sec3 .container h2{margin: 0 auto; text-align: center; padding: 30px 0 10px 0; font-size: 2vw; color: #666;}
+        .site-sec3 .container .wrap{margin: 0 auto; display: flex;flex-direction: column; align-items: center; 
+                width: 100%; height: auto;}
+        .site-sec3 .container .wrap .side{box-sizing: border-box; position: relative; width: 90%; height: auto; }
+        .site-sec3 .container .wrap .side .naiyou{display: inline-block; box-sizing: border-box; font-size: 1.3vw; position: absolute; left: 50%; top: 18%; transform: translateX(-50%);
+                width: 120%; min-height: 70%; 
+                background-color: beige; padding: 5% 10% 5% 10% ; text-align: center;}
+        .site-sec3 .container .wrap .side .naiyou span{color: coral;}
+        .site-sec3 .container .rowicon{display: flex; justify-content: center;align-items: center; width: 100%; height: auto;}
+        .site-sec3 .container .rowicon .jirusi{width: 30px; height: 30px; margin: 10px 30px 10px 30px;}
+        .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
+
+
 
         }
 
@@ -101,5 +119,22 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
         .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1vw;}
         .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
         
-       
+        .site-sec3{width: 100%; height: 700px; margin: 0; padding: 0; background-color: aliceblue;}
+        .site-sec3 .container{width: 1140px; height: 600px;margin: 0 auto;}
+        .site-sec3 .container h2{margin: 0 auto; text-align: center; padding: 30px 0 10px 0; font-size: 2vw; color: #666;}
+        .site-sec3 .container .wrap{margin: 0 auto; display: flex;justify-content: space-between;align-items: center; 
+                width: 100%; height: 92%;}
+        .site-sec3 .container .wrap .side{box-sizing: border-box; position: relative; width: 48%; height: 96%; }
+        .site-sec3 .container .wrap .side .naiyou{display: inline-block; box-sizing: border-box; font-size: 1.3vw; position: absolute; left: 70%; top: 18%; transform: translateX(-76%); width: 120%; min-height: 70%; 
+                background-color: beige; padding: 12% 5% 0 5% ; text-align: center;}
+        .site-sec3 .container .wrap .side .naiyou span{color: coral;}
+        .site-sec3 .container .rowicon{display: flex; justify-content: center;align-items: center; width: 100%; height: auto;}
+        .site-sec3 .container .rowicon .jirusi{width: 30px; height: 30px; margin: 10px 30px 10px 30px;}
+        .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
+        
+
+
+
+
+
 }
