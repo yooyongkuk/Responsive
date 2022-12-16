@@ -6,322 +6,132 @@ a{text-decoration: none;}
 header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: absolute; left: 0; top: 0; z-index: 3; opacity: 0.9;}
 
 @media(max-width:768px){
-        #wrap{width: 100%;height: auto; }
-        html{font-size: 6px;}
+#wrap{width: 100%;height: auto; }
+html{font-size: 6px;}
+
+
+
+#slider{max-width: 100%; height: 800px;background-position: center; margin: 0 auto;
+        background-image: url(../img/welryong.jpg); background-size:cover;}
+#slider h1{color: white; padding: 280px 0 0 0; text-align: center; font-size: 4rem;}
+#slider h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
+#slider p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
+#slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
+#slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
+
+.site-sec{position: relative; width:100%; height:1120px; margin: 0; padding: 0; }
+        .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                align-items: center; width: 100%; height: auto;margin: 0 auto; }
+        .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
+        .site-sec .container .wrap {width: 96%;height:100%; overflow: hidden;  padding: 4px;}
+        .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
+        .site-sec .container .box .img{width:100%; height: 100%;background-size: cover; background-position: center;}
+        .site-sec .container .wrap .box h3{position: absolute; bottom: 10%;left: 50%; transform: translate(-50%,-70%);
+                margin: 0 auto; color: white; font-size: 2rem;}
+        .site-sec .container .box .img:hover{transform:scale(1.03) ;}
+        .site-sec .container .wrap .box h3:hover{font-size: 2.2rem; color: coral;}
+
+.site-sec2{position: relative; width:100%; height:640px; margin: 0; padding: 0; }
+        .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                align-items: center; width: 100%; height: auto;margin: 0 auto; }
+        .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
+        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:220px; overflow: hidden;text-align: center; 
+                background-color: beige; margin: 10px 0 0 0 ;}
+        .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
+        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: center ;}
+        .site-sec2 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1.5;}
+        .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center; }
+        .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
+
+.site-sec3{width: 100%; height: 700px; margin: 0; padding: 0; }
+        .site-sec3 .container{width: 100%; height: 600px;margin: 60px auto;}
+        .site-sec3 .container h2{margin: 0px auto; text-align: center; padding: 10px 0 10px 0; font-size: 3rem; color: #666;}
+        .site-sec3 .container .wrap{margin: 0 auto; display: flex;flex-direction: column; align-items: center; 
+                width: 100%; height: 92%;}
+        .site-sec3 .container .wrap .side_1{background-size: cover; background-repeat: no-repeat; display: inline-block; overflow: hidden; box-sizing: border-box; position: relative; width: 96%; height: 100%; }
+        .site-sec3 .container .wrap .side_2{box-sizing: border-box; position: relative; width: 96%; height: 10%; }
+        .site-sec3 .container .wrap .side_2 .naiyou{display: inline-block; box-sizing: border-box; font-size: 2rem; 
+                position: absolute; left: 70%; top: 18%; transform: translateX(-70%); width: 100%; min-height: 70%; 
+                background-color: beige; padding: 5% ; text-align: center;}
+        .site-sec3 .container .wrap .side_2 .naiyou span{color: coral;}
+        .site-sec3 .container .rowicon{margin: 70px 0 0 0; display: flex; justify-content: center;align-items: center; width: 100%; height: auto;}
+        .site-sec3 .container .rowicon .jirusi{width: 10px; height: 30px; margin: 26px 30px 26px 30px;}
+        .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
         
-        header {position: fixed;}
-        header .small {display: flex; align-items: center; justify-content: space-between;line-height: 40px; padding: 0 10px;}
-        header .container .b .icon{display: none;}
-        header .container .icon{display: none;}
-        header .container .a{display: block;}
-        header .container .a:hover{cursor: pointer;}
-        header .container .b ul{display:flex;flex-direction: column; justify-content: space-around; }
-        header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.5rem;} 
-        header .container .b ul li a:hover{color: coral;}
-        header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
-        header .container.icon{display: flex;}
-        header .container.icon img:hover{transform: scale(1.05);}
-        header .container.icon img{padding:6px;}
+.site-sec4{position: relative; width:100%; height:auto; padding: 0;}
+        .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                align-content: center; width: 100%; height: auto; margin: 0 auto; }
+        .site-sec4 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
+        .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 38px 0 0 0;}
+        .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
+                        padding: 0 0 10px 0;}
+        .site-sec4 .container .wrap {width: 96%;height:100%; overflow: hidden; margin: 10px 0 0 0;}
+        .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
+        .site-sec4 .container .wrap .box h3{position: absolute;bottom: 10%;left: 50%; transform: translate(-50%,-50%);
+                margin: 0 auto; color: coral; font-size: 1.8rem;}
+        .site-sec4 .container .wrap .box h2{position: absolute;bottom: 5%;left: 50%; transform: translate(-50%,-50%);
+                        margin: 0 auto; color: white; font-size: 2.5rem;}
+        .site-sec4 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
+        .site-sec4 .container .wrap .box h3:hover{font-size: 1.9rem; color: white;}
+        .site-sec4 .container .wrap .box h2:hover{font-size: 2.6rem; color: coral;}
+
+#slider2{max-width: 100%; height: 600px;background-position: center; margin: 0,auto;
+                background-image: url(../img/rettsya.jpg); background-size:cover;}
+        #slider2 h1{color: white; padding: 200px 0 0 0; text-align: center; font-size: 4rem;}
+        #slider2 h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
+        #slider2 p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
+        #slider2 a:hover{background-color: transparent; border: 1px solid white; color: white;}
+        #slider2 a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
+
+.site-sec5{position: relative; width:100%; height:auto; margin: 0 auto; padding: 0; }
+        .site-sec5 .container{flex-flow: row wrap; overflow: hidden; justify-content: space-around; 
+                align-content:space-around; width: 100%; height: auto;margin: 0 auto; }
+        .site-sec5 .container .wrap {background-color: beige; box-sizing: border-box; width: 96%;height:220px; overflow: hidden;text-align: center; 
+                padding: 0px 0 10px 0; margin: 10px 0 0 10px;}
         
-        #slider{max-width: 100%; height: 800px;background-position: center; margin: 0 auto;
-                background-image: url(../img/welryong.jpg); background-size:cover;}
-        #slider h1{color: white; padding: 280px 0 0 0; text-align: center; font-size: 4rem;}
-        #slider h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
-        #slider p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
-        #slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
-        #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
-        
-        .site-sec{position: relative; width:100%; height:1120px; margin: 0; padding: 0; }
-                .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                        align-items: center; width: 100%; height: auto;margin: 0 auto; }
-                .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
-                .site-sec .container .wrap {width: 96%;height:100%; overflow: hidden;  padding: 4px;}
-                .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
-                .site-sec .container .box .img{width:100%; height: 100%;background-size: cover; background-position: center;}
-                .site-sec .container .wrap .box h3{position: absolute; bottom: 10%;left: 50%; transform: translate(-50%,-70%);
-                        margin: 0 auto; color: white; font-size: 2rem;}
-                .site-sec .container .box .img:hover{transform:scale(1.03) ;}
-                .site-sec .container .wrap .box h3:hover{font-size: 2.2rem; color: coral;}
+        .site-sec5> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 38px 0 0 0;}
+        .site-sec5> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
+                padding: 0 0 20px 0;}
+        .site-sec5 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
+        .site-sec5 .container .wrap h3{-webkit-line-clamp: 4; text-overflow:ellipsis; margin: 10px ; font-size: 1.8rem; color: #666;text-align: center ;}
+        .site-sec5 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1.5rem;}
+        .site-sec5 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
+        .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
-        .site-sec2{position: relative; width:100%; height:640px; margin: 0; padding: 0; }
-                .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                        align-items: center; width: 100%; height: auto;margin: 0 auto; }
-                .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
-                .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:220px; overflow: hidden;text-align: center; 
-                        background-color: beige; margin: 10px 0 0 0 ;}
-                .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
-                .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: center ;}
-                .site-sec2 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1.5;}
-                .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center; }
-                .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
+.site-sec6{position: relative; width:100%; height:auto; padding: 0; margin: 10px auto;}
+        .site-sec6 .container{padding: 0px 0 0px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                align-content: space-around; width: 100%; height: auto; margin: 10px auto; }
+        .site-sec6 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
+        .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 38px 0 0 0;}
+        .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
+                        padding: 0 0 30px 0; }
+        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
+                                padding: 10px 0;}
+        .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
+        .site-sec6 p{font-size: 1.4rem; color: #666 ;}
+        .site-sec6 p span{font-size: 1.4rem; color: coral;}
+        .site-sec6 .container .wrap {width: 96%;height:auto; overflow:hidden; margin: 5px 0 5px 0;}
+        .site-sec6 .container .wrap .burog1{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
+        .site-sec6 .container .wrap .burog2{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
+        .site-sec6 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
+        .site-sec6 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
+        .site-sec6 p span:hover{font-size: 1.45rem; color: red;}
+        .site-sec6 >p{color: white; margin: 42px auto; text-align: center; font-size: 1.8rem;}
+        .site-sec6 >p a{background-color: coral; color: white; padding: 12px; text-align: center;}
+        .site-sec6 >p a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
-        .site-sec3{width: 100%; height: 700px; margin: 0; padding: 0; }
-                .site-sec3 .container{width: 100%; height: 600px;margin: 60px auto;}
-                .site-sec3 .container h2{margin: 0px auto; text-align: center; padding: 10px 0 10px 0; font-size: 3rem; color: #666;}
-                .site-sec3 .container .wrap{margin: 0 auto; display: flex;flex-direction: column; align-items: center; 
-                        width: 100%; height: 92%;}
-                .site-sec3 .container .wrap .side_1{display: inline-block; overflow: hidden; box-sizing: border-box; position: relative; width: 96%; height: 100%; }
-                .site-sec3 .container .wrap .side_2{box-sizing: border-box; position: relative; width: 96%; height: 10%; }
-                .site-sec3 .container .wrap .side_2 .naiyou{display: inline-block; box-sizing: border-box; font-size: 2rem; 
-                        position: absolute; left: 70%; top: 18%; transform: translateX(-70%); width: 100%; min-height: 70%; 
-                        background-color: beige; padding: 5% ; text-align: center;}
-                .site-sec3 .container .wrap .side_2 .naiyou span{color: coral;}
-                .site-sec3 .container .rowicon{margin: 70px 0 0 0; display: flex; justify-content: center;align-items: center; width: 100%; height: auto;}
-                .site-sec3 .container .rowicon .jirusi{width: 10px; height: 30px; margin: 26px 30px 26px 30px;}
-                .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
-          
-        .site-sec4{position: relative; width:100%; height:auto; padding: 0;}
-                .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                        align-content: center; width: 100%; height: auto; margin: 0 auto; }
-                .site-sec4 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-                .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                        padding: 38px 0 0 0;}
-                .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
-                                padding: 0 0 10px 0;}
-                .site-sec4 .container .wrap {width: 96%;height:100%; overflow: hidden; margin: 10px 0 0 0;}
-                .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
-                .site-sec4 .container .wrap .box h3{position: absolute;bottom: 10%;left: 50%; transform: translate(-50%,-50%);
-                        margin: 0 auto; color: coral; font-size: 1.8rem;}
-                .site-sec4 .container .wrap .box h2{position: absolute;bottom: 5%;left: 50%; transform: translate(-50%,-50%);
-                                margin: 0 auto; color: white; font-size: 2.5rem;}
-                .site-sec4 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-                .site-sec4 .container .wrap .box h3:hover{font-size: 1.9rem; color: white;}
-                .site-sec4 .container .wrap .box h2:hover{font-size: 2.6rem; color: coral;}
 
-        #slider2{max-width: 100%; height: 600px;background-position: center; margin: 0,auto;
-                        background-image: url(../img/rettsya.jpg); background-size:cover;}
-                #slider2 h1{color: white; padding: 200px 0 0 0; text-align: center; font-size: 4rem;}
-                #slider2 h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
-                #slider2 p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
-                #slider2 a:hover{background-color: transparent; border: 1px solid white; color: white;}
-                #slider2 a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
-
-        .site-sec5{position: relative; width:100%; height:auto; margin: 0 auto; padding: 0; }
-                .site-sec5 .container{flex-flow: row wrap; overflow: hidden; justify-content: space-around; 
-                        align-content:space-around; width: 100%; height: auto;margin: 0 auto; }
-                .site-sec5 .container .wrap {background-color: beige; box-sizing: border-box; width: 96%;height:220px; overflow: hidden;text-align: center; 
-                        padding: 0px 0 10px 0; margin: 10px 0 0 10px;}
-                
-                .site-sec5> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                        padding: 38px 0 0 0;}
-                .site-sec5> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
-                        padding: 0 0 20px 0;}
-                .site-sec5 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
-                .site-sec5 .container .wrap h3{-webkit-line-clamp: 4; text-overflow:ellipsis; margin: 10px ; font-size: 1.8rem; color: #666;text-align: center ;}
-                .site-sec5 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1.5rem;}
-                .site-sec5 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
-                .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
-
-        .site-sec6{position: relative; width:100%; height:auto; padding: 0; margin: 10px;}
-                .site-sec6 .container{padding: 0px 0 0px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                        align-content: space-around; width: 100%; height: auto; margin: 10px auto; }
-                .site-sec6 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-                .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                        padding: 38px 0 0 0;}
-                .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
-                                padding: 0 0 30px 0; }
-                .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
-                                       padding: 10px 0;}
-                .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
-                .site-sec6 p{font-size: 1.4rem; color: #666 ;}
-                .site-sec6 p span{font-size: 1.4rem; color: coral;}
-                .site-sec6 .container .wrap {width: 96%;height:auto; overflow:hidden; margin: 5px 0 5px 0;}
-                .site-sec6 .container .wrap .burog1{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
-                .site-sec6 .container .wrap .burog2{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
-                .site-sec6 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
-                .site-sec6 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-                .site-sec6 p span:hover{font-size: 1.45rem; color: red;}
-                .site-sec6 >p{color: white; margin: 42px auto; text-align: center; font-size: 1.8rem;}
-                .site-sec6 >p a{background-color: coral; color: white; padding: 12px; text-align: center;}
-                .site-sec6 >p a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
-
-        footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0 auto;}
-                footer .wrap{width: 100%; height: auto; margin: 0 auto;}
-                footer .fter{width: 100%; height: auto; display: flex; flex-flow: row wrap;
-                        justify-content: space-around; align-content: center; }
-                footer .fter .f_1{width: 96%; height: auto; padding: 10px;}
-                footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
-                footer .wrap p{font-size: 1.2rem; color: rgb(199, 197, 197); text-align: center;}
-                footer .fter .f_1 .navi{display: flex;flex-flow: row column; justify-content:space-around; align-content: space-around;}
-                footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
-                footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
-                footer .fter .f_1 .navi>div a:hover{text-decoration: none; color: coral;}
-                footer .fter .f_1 button{font-size: 1.2rem; color: white;border: 3px solid coral ;background-color: coral;}
-                footer .fter .f_1 input{border: 2px solid white;}
-                footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
-                footer .midia{display: flex; justify-content: center; align-items: center; margin: 10px;}
-                footer .midia img{margin: 10px;}
-                footer .wrap h3{text-align: center;color: rgb(199, 197, 197);margin: 0 0 0 0;padding: 0 0 20px 0;}
-                
-        }
+}
 
 @media(min-width:769px){
-                #wrap{width: 100%;height: auto;}
-                .container{width: 100%; height: 100%; margin: 0 auto;}
-                html{font-size: 10px;}
-        
-                header {position: fixed; display: flex; width: 100%; display: flex; padding: 0%;}
-                header .container{display: flex; justify-content:space-around; align-items: center; line-height: 60px;}
-                header .container .b .icon{display: block;}
-                header .container .a{display: none;}
-                header .container .b ul{display:flex; justify-content: space-around; align-items: center;}
-                header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.5rem;} 
-                header .container .b ul li a:hover{color: coral;}
-                header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
-        
-                header .container.icon{display: flex;}
-                header .container.icon img:hover{transform: scale(1.02);}
-                header .container.icon img{padding:6px;}
-        
-                #slider{max-width: 100%; height: 800px;background-position: center; margin: 0 auto;
-                        background-image: url(../img/welryong.jpg); background-size:cover;}
-                        #slider h1{color: white; padding: 280px 0 0 0; text-align: center; font-size: 4rem;}
-                        #slider h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
-                        #slider p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
-                        #slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
-                        #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
-        
-                .site-sec{position: relative; width:100%; height:410px; margin: 0 auto; padding: 0; }
-                        .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                                align-items: center; width: 100%; height: 400px;margin: 0 auto; }
-                        .site-sec .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-                        .site-sec .container .wrap {width: 48%;height:100%; overflow: hidden; }
-                        .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
-                        .site-sec .container .wrap .box h3{position: absolute;bottom: 10%;left: 50%; transform: translate(-50%,-50%);
-                                margin: 0 auto; color: white; font-size: 2rem;}
-                        .site-sec .container {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-70%);}
-                        .site-sec .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-                        .site-sec .container .wrap .box h3:hover{font-size: 2.2rem; color: coral;}
-        
-                .site-sec2{position: relative; width:100%; height:440px; margin: 0 auto; padding: 0; }
-                        .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                                align-items: center; width: 100%; height: 400px;margin: 0 auto; }
-                        .site-sec2 .container .wrap {box-sizing: border-box; width: 46%;height:100%; overflow: hidden;text-align: center; 
-                                padding: 0 10px 0 10px;}
-                        .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
-                        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ;}
-                        .site-sec2 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: 1.5rem;}
-                        .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
-                        .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
-                
-                .site-sec3{width: 100%; height: 700px; margin: 0 auto; padding: 0; background-color: aliceblue;}
-                        .site-sec3 .container{width: 100%; height: 600px;margin: 0 auto;}
-                        .site-sec3 .container h2{display: inline-block; width: 100%; height: 10%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                                padding: 30px 0 0 0;}
-                        .site-sec3 .container .wrap{margin: 0 auto; display: flex;justify-content: space-around;align-content: space-around; 
-                                width: 100%; height: 92%;}
-                        .site-sec3 .container .wrap .side_1{background-size:cover; box-sizing: border-box; position: relative; width: 48%; height: 100%; }
-                        .site-sec3 .container .wrap .side_2{box-sizing: border-box; position: relative; width: 48%; height: 100%; }
-                        .site-sec3 .container .wrap .side_2 .naiyou{display: inline-block; box-sizing: border-box; font-size: 2rem; 
-                                position: absolute; left: 70%; top: 18%; transform: translateX(-76%); width: 120%; min-height: 70%; 
-                                background-color: beige; padding: 20% 5% 0 5% ; text-align: center;}
-                        .site-sec3 .container .wrap .side2 .naiyou span{color: coral;}
-                        .site-sec3 .container .rowicon{display: flex; justify-content: center;align-items: center; width: 100%; height: auto;}
-                        .site-sec3 .container .rowicon .jirusi{width: 30px; height: 30px; margin: 15px 30px 10px 30px;}
-                        .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
-                
-                .site-sec4{position: relative; width:100%; height:auto; padding: 0; margin: 0 auto;}
-                        .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
-                                align-content: space-between; width: 100%; height: auto; margin:0 auto; }
-                        .site-sec4 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-                        .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                                padding: 38px 0 0 0;}
-                        .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
-                                        padding: 0 0 10px 0;}
-                        .site-sec4 .container .wrap {width: 49%;height:auto; overflow: hidden; }
-                        .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
-                        .site-sec4 .container .wrap .box h3{position: absolute;bottom: 14%;left: 50%; transform: translate(-50%,-50%);
-                                margin: 0 auto; color: coral; font-size: 1.8rem;}
-                        .site-sec4 .container .wrap .box h2{position: absolute;bottom: 5%;left: 50%; transform: translate(-50%,-50%);
-                                        margin: 0 auto; color: white; font-size: 2.5rem;}
-                        .site-sec4 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-                        .site-sec4 .container .wrap .box h3:hover{font-size: 1.9rem; color: white;}
-                        .site-sec4 .container .wrap .box h2:hover{font-size: 2.6rem; color: coral;}
-        
-                #slider2{max-width: 100%; height: 600px;background-position: center; margin: 0 auto;
-                        background-image: url(../img/rettsya.jpg); background-size:cover;}
-                        #slider2 h1{color: white; padding: 200px 0 0 0; text-align: center; font-size: 4rem;}
-                        #slider2 h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
-                        #slider2 p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
-                        #slider2 a:hover{background-color: transparent; border: 1px solid white; color: white;}
-                        #slider2 a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
-        
-                .site-sec5{position: relative; width:100%; height:1000px; margin: 0 auto; padding: 0; }
-                        .site-sec5 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                                align-content:space-around; width: 1140px; height: 880px;margin: 0 auto; }
-                        .site-sec5 .container .wrap {box-sizing: border-box; width: 32%;height:400px; overflow: hidden;text-align: center; 
-                                padding: 10px 0 10px 0;}
-                        
-                        .site-sec5> h2{display: inline-block; width: 100%; height: 4%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                                padding: 38px 0 0 0;}
-                        .site-sec5> h3{display: inline-block; width: 100%; height: 3%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
-                                padding: 0 0 10px 0;}
-                        .site-sec5 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
-                        .site-sec5 .container .wrap h3{-webkit-line-clamp: 4; text-overflow:ellipsis; margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ;}
-                        .site-sec5 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: 1.5rem;}
-                        .site-sec5 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
-                        .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
-        
-                .site-sec6{position: relative; width:100%; height:830px; padding: 0; margin: 0 auto;}
-                        .site-sec6 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                                align-content: space-around; width: 1140px; height: 520px; margin: 10px auto; }
-                        .site-sec6 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-                        .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
-                                padding: 38px 0 0 0;}
-                        .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
-                                        padding: 0 0 30px 0; }
-                        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
-                                               padding: 10px 0;}
-                        .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
-                        .site-sec6 p{font-size: 1.4rem; color: #666 ;}
-                        .site-sec6 p span{font-size: 1.4rem; color: coral;}
-                        .site-sec6 .container .wrap {width: 49%;height:auto; overflow:hidden; margin: 10px 0 10px 0;}
-                        .site-sec6 .container .wrap .burog1{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
-                        .site-sec6 .container .wrap .burog2{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
-                        .site-sec6 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
-                        .site-sec6 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-                        .site-sec6 p span:hover{font-size: 1.45rem; color: red;}
-                        .site-sec6 >p{color: white; margin: 42px auto; text-align: center; font-size: 1.8rem;}
-                        .site-sec6 >p a{background-color: coral; color: white; padding: 12px; text-align: center;}
-                        .site-sec6 >p a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
-        
-                footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; margin: 0 auto;}
-                        footer .wrap{width: 1140px; height: 340px; margin: 0 auto;}
-                        footer .fter{width: 100%; height: 180px; display: flex; flex-flow: row wrap;
-                                justify-content: space-around; align-items: center; }
-                        footer .fter .f_1{width: 30%; height: auto; padding: 10px;}
-                        footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
-                        footer .wrap p{font-size: 1.2rem; color: rgb(199, 197, 197);}
-                        footer .fter .f_1 .navi{display: flex;flex-flow: row column; justify-content:space-around; align-content: space-around;}
-                        footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
-                        footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
-                        footer .fter .f_1 .navi>div a:hover{text-decoration: none; color: coral;}
-                        footer .fter .f_1 button{font-size: 1.2rem; color: white;border: 3px solid coral ;background-color: coral;}
-                        footer .fter .f_1 input{border: 2px solid white;}
-                        footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
-                        footer .midia{display: flex; justify-content: center; align-items: center; margin: 20px;}
-                        footer .midia img{margin: 20px;}
-                        footer .wrap h3{text-align: center;color: rgb(199, 197, 197);;}
-        
-        }
-
-@media(min-width:1141px){
         #wrap{width: 100%;height: auto;}
-        .container{width: 1140px; height: 100%; margin: 0 auto;}
+        .container{width: 100%; height: 100%; margin: 0 auto;}
         html{font-size: 10px;}
 
-        header {position: fixed; display: flex; width: 100%; display: flex; padding: 0%;}
-        header .container{display: flex; justify-content:space-around; align-items: center; line-height: 60px;}
-        header .container .b .icon{display: block;}
-        header .container .a{display: none;}
-        header .container .b ul{display:flex; justify-content: space-around; align-items: center;}
-        header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.5rem;} 
-        header .container .b ul li a:hover{color: coral;}
-        header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
-
-        header .container.icon{display: flex;}
-        header .container.icon img:hover{transform: scale(1.02);}
-        header .container.icon img{padding:6px;}
+        
 
         #slider{max-width: 100%; height: 800px;background-position: center; margin: 0 auto;
                 background-image: url(../img/welryong.jpg); background-size:cover;}
@@ -332,10 +142,10 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
 
         .site-sec{position: relative; width:100%; height:410px; margin: 0 auto; padding: 0; }
-                .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                        align-items: center; width: 1140px; height: 400px;margin: 0 auto; }
+                .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                        align-items: center; width: 100%; height: 400px;margin: 0 auto; }
                 .site-sec .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-                .site-sec .container .wrap {width: 32%;height:100%; overflow: hidden; }
+                .site-sec .container .wrap {width: 48%;height:100%; overflow: hidden; }
                 .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
                 .site-sec .container .wrap .box h3{position: absolute;bottom: 10%;left: 50%; transform: translate(-50%,-50%);
                         margin: 0 auto; color: white; font-size: 2rem;}
@@ -344,9 +154,9 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 .site-sec .container .wrap .box h3:hover{font-size: 2.2rem; color: coral;}
 
         .site-sec2{position: relative; width:100%; height:440px; margin: 0 auto; padding: 0; }
-                .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                        align-items: center; width: 1140px; height: 400px;margin: 0 auto; }
-                .site-sec2 .container .wrap {box-sizing: border-box; width: 32%;height:100%; overflow: hidden;text-align: center; 
+                .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                        align-items: center; width: 100%; height: 400px;margin: 0 auto; }
+                .site-sec2 .container .wrap {box-sizing: border-box; width: 46%;height:100%; overflow: hidden;text-align: center; 
                         padding: 0 10px 0 10px;}
                 .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
                 .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ;}
@@ -355,10 +165,10 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
         
         .site-sec3{width: 100%; height: 700px; margin: 0 auto; padding: 0; background-color: aliceblue;}
-                .site-sec3 .container{width: 1140px; height: 600px;margin: 0 auto;}
+                .site-sec3 .container{width: 100%; height: 600px;margin: 0 auto;}
                 .site-sec3 .container h2{display: inline-block; width: 100%; height: 10%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                         padding: 30px 0 0 0;}
-                .site-sec3 .container .wrap{margin: 0 auto; display: flex;justify-content: space-between;align-items: center; 
+                .site-sec3 .container .wrap{margin: 0 auto; display: flex;justify-content: space-around;align-content: space-around; 
                         width: 100%; height: 92%;}
                 .site-sec3 .container .wrap .side_1{background-size:cover; box-sizing: border-box; position: relative; width: 48%; height: 100%; }
                 .site-sec3 .container .wrap .side_2{box-sizing: border-box; position: relative; width: 48%; height: 100%; }
@@ -371,14 +181,14 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
         
         .site-sec4{position: relative; width:100%; height:auto; padding: 0; margin: 0 auto;}
-                .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                        align-content: space-around; width: 1140px; height: 840px; margin: 0 auto; }
+                .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                        align-content: space-between; width: 100%; height: auto; margin:0 auto; }
                 .site-sec4 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
                 .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                         padding: 38px 0 0 0;}
                 .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
                                 padding: 0 0 10px 0;}
-                .site-sec4 .container .wrap {width: 32%;height:auto; overflow: hidden; }
+                .site-sec4 .container .wrap {width: 49%;height:auto; overflow: hidden;margin: 6px 0 0 0; }
                 .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
                 .site-sec4 .container .wrap .box h3{position: absolute;bottom: 14%;left: 50%; transform: translate(-50%,-50%);
                         margin: 0 auto; color: coral; font-size: 1.8rem;}
@@ -397,10 +207,10 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 #slider2 a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
 
         .site-sec5{position: relative; width:100%; height:1000px; margin: 0 auto; padding: 0; }
-                .site-sec5 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                        align-content:space-around; width: 1140px; height: 880px;margin: 0 auto; }
-                .site-sec5 .container .wrap {box-sizing: border-box; width: 32%;height:400px; overflow: hidden;text-align: center; 
-                        padding: 10px 0 10px 0;}
+                .site-sec5 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
+                        align-content:space-around; width: 100%; height: 920px;margin: 0 auto; }
+                .site-sec5 .container .wrap {box-sizing: border-box; width: 48%;height:auto; overflow: hidden;text-align: center; 
+                        padding: 10px 0 10px 0; margin: 0 0 10px 0;}
                 
                 .site-sec5> h2{display: inline-block; width: 100%; height: 4%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                         padding: 38px 0 0 0;}
@@ -413,19 +223,19 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
         .site-sec6{position: relative; width:100%; height:830px; padding: 0; margin: 0 auto;}
-                .site-sec6 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
-                        align-content: space-around; width: 1140px; height: 520px; margin: 10px auto; }
+                .site-sec6 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content:space-around; 
+                        align-content: space-around; width: 100%; height: 520px; margin: 0 auto; }
                 .site-sec6 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
                 .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                         padding: 38px 0 0 0;}
                 .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
                                 padding: 0 0 30px 0; }
                 .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
-                                       padding: 10px 0;}
+                                        padding: 10px 0;}
                 .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
                 .site-sec6 p{font-size: 1.4rem; color: #666 ;}
                 .site-sec6 p span{font-size: 1.4rem; color: coral;}
-                .site-sec6 .container .wrap {width: 49%;height:auto; overflow:hidden; margin: 10px 0 10px 0;}
+                .site-sec6 .container .wrap {width: 48%;height:auto; overflow:hidden; margin: 10px 0 10px 0;}
                 .site-sec6 .container .wrap .burog1{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
                 .site-sec6 .container .wrap .burog2{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
                 .site-sec6 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
@@ -435,22 +245,129 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
                 .site-sec6 >p a{background-color: coral; color: white; padding: 12px; text-align: center;}
                 .site-sec6 >p a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
-        footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; margin: 0 auto;}
-                footer .wrap{width: 1140px; height: 340px; margin: 0 auto;}
-                footer .fter{width: 100%; height: 180px; display: flex; flex-flow: row wrap;
-                        justify-content: space-around; align-items: center; }
-                footer .fter .f_1{width: 30%; height: auto; padding: 10px;}
-                footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
-                footer .wrap p{font-size: 1.2rem; color: rgb(199, 197, 197);}
-                footer .fter .f_1 .navi{display: flex;flex-flow: row column; justify-content:space-around; align-content: space-around;}
-                footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
-                footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
-                footer .fter .f_1 .navi>div a:hover{text-decoration: none; color: coral;}
-                footer .fter .f_1 button{font-size: 1.2rem; color: white;border: 3px solid coral ;background-color: coral;}
-                footer .fter .f_1 input{border: 2px solid white;}
-                footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
-                footer .midia{display: flex; justify-content: center; align-items: center; margin: 20px;}
-                footer .midia img{margin: 20px;}
-                footer .wrap h3{text-align: center;color: rgb(199, 197, 197);;}
+        
+
+}
+
+@media(min-width:1141px){
+#wrap{width: 100%;height: auto;}
+.container{width: 1140px; height: 100%; margin: 0 auto;}
+html{font-size: 10px;}
+
+
+
+#slider{max-width: 100%; height: 800px;background-position: center; margin: 0 auto;
+        background-image: url(../img/welryong.jpg); background-size:cover;}
+        #slider h1{color: white; padding: 280px 0 0 0; text-align: center; font-size: 4rem;}
+        #slider h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
+        #slider p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
+        #slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
+        #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
+
+.site-sec{position: relative; width:100%; height:410px; margin: 0 auto; padding: 0; }
+        .site-sec .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
+                align-items: center; width: 1140px; height: 400px;margin: 0 auto; }
+        .site-sec .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
+        .site-sec .container .wrap {width: 32%;height:100%; overflow: hidden; }
+        .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
+        .site-sec .container .wrap .box h3{position: absolute;bottom: 10%;left: 50%; transform: translate(-50%,-50%);
+                margin: 0 auto; color: white; font-size: 2rem;}
+        .site-sec .container {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-70%);}
+        .site-sec .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
+        .site-sec .container .wrap .box h3:hover{font-size: 2.2rem; color: coral;}
+
+.site-sec2{position: relative; width:100%; height:440px; margin: 0 auto; padding: 0; }
+        .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
+                align-items: center; width: 1140px; height: 400px;margin: 0 auto; }
+        .site-sec2 .container .wrap {box-sizing: border-box; width: 32%;height:100%; overflow: hidden;text-align: center; 
+                padding: 0 10px 0 10px;}
+        .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
+        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ;}
+        .site-sec2 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: 1.5rem;}
+        .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
+        .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
+
+.site-sec3{width: 100%; height: 700px; margin: 0 auto; padding: 0; background-color: aliceblue;}
+        .site-sec3 .container{width: 1140px; height: 600px;margin: 0 auto;}
+        .site-sec3 .container h2{display: inline-block; width: 100%; height: 10%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 30px 0 0 0;}
+        .site-sec3 .container .wrap{margin: 0 auto; display: flex;justify-content: space-between;align-items: center; 
+                width: 100%; height: 92%;}
+        .site-sec3 .container .wrap .side_1{background-size:cover; box-sizing: border-box; position: relative; width: 48%; height: 100%; }
+        .site-sec3 .container .wrap .side_2{box-sizing: border-box; position: relative; width: 48%; height: 100%; }
+        .site-sec3 .container .wrap .side_2 .naiyou{display: inline-block; box-sizing: border-box; font-size: 2rem; 
+                position: absolute; left: 70%; top: 18%; transform: translateX(-76%); width: 120%; min-height: 70%; 
+                background-color: beige; padding: 20% 5% 0 5% ; text-align: center;}
+        .site-sec3 .container .wrap .side2 .naiyou span{color: coral;}
+        .site-sec3 .container .rowicon{display: flex; justify-content: center;align-items: center; width: 100%; height: auto;}
+        .site-sec3 .container .rowicon .jirusi{width: 30px; height: 30px; margin: 15px 30px 10px 30px;}
+        .site-sec3 .container .rowicon .jirusi:hover{transform: scale(1.03);}
+
+.site-sec4{position: relative; width:100%; height:auto; padding: 0; margin: 0 auto;}
+        .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
+                align-content: space-around; width: 1140px; height: 840px; margin: 0 auto; }
+        .site-sec4 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
+        .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 38px 0 0 0;}
+        .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
+                        padding: 0 0 10px 0;}
+        .site-sec4 .container .wrap {width: 32%;height:auto; overflow: hidden; }
+        .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
+        .site-sec4 .container .wrap .box h3{position: absolute;bottom: 14%;left: 50%; transform: translate(-50%,-50%);
+                margin: 0 auto; color: coral; font-size: 1.8rem;}
+        .site-sec4 .container .wrap .box h2{position: absolute;bottom: 5%;left: 50%; transform: translate(-50%,-50%);
+                        margin: 0 auto; color: white; font-size: 2.5rem;}
+        .site-sec4 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
+        .site-sec4 .container .wrap .box h3:hover{font-size: 1.9rem; color: white;}
+        .site-sec4 .container .wrap .box h2:hover{font-size: 2.6rem; color: coral;}
+
+#slider2{max-width: 100%; height: 600px;background-position: center; margin: 0 auto;
+        background-image: url(../img/rettsya.jpg); background-size:cover;}
+        #slider2 h1{color: white; padding: 200px 0 0 0; text-align: center; font-size: 4rem;}
+        #slider2 h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
+        #slider2 p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
+        #slider2 a:hover{background-color: transparent; border: 1px solid white; color: white;}
+        #slider2 a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 1.5rem;}
+
+.site-sec5{position: relative; width:100%; height:1000px; margin: 0 auto; padding: 0; }
+        .site-sec5 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
+                align-content:space-around; width: 1140px; height: 880px;margin: 0 auto; }
+        .site-sec5 .container .wrap {box-sizing: border-box; width: 32%;height:400px; overflow: hidden;text-align: center; 
+                padding: 10px 0 10px 0;}
+        
+        .site-sec5> h2{display: inline-block; width: 100%; height: 4%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 38px 0 0 0;}
+        .site-sec5> h3{display: inline-block; width: 100%; height: 3%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
+                padding: 0 0 10px 0;}
+        .site-sec5 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
+        .site-sec5 .container .wrap h3{-webkit-line-clamp: 4; text-overflow:ellipsis; margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ;}
+        .site-sec5 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: 1.5rem;}
+        .site-sec5 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
+        .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
+
+.site-sec6{position: relative; width:100%; height:830px; padding: 0; margin: 0 auto;}
+        .site-sec6 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
+                align-content: space-around; width: 1140px; height: 520px; margin: 10px auto; }
+        .site-sec6 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
+        .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
+                padding: 38px 0 0 0;}
+        .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
+                        padding: 0 0 30px 0; }
+        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
+                                padding: 10px 0;}
+        .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
+        .site-sec6 p{font-size: 1.4rem; color: #666 ;}
+        .site-sec6 p span{font-size: 1.4rem; color: coral;}
+        .site-sec6 .container .wrap {width: 49%;height:auto; overflow:hidden; margin: 10px 0 10px 0;}
+        .site-sec6 .container .wrap .burog1{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
+        .site-sec6 .container .wrap .burog2{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
+        .site-sec6 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
+        .site-sec6 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
+        .site-sec6 p span:hover{font-size: 1.45rem; color: red;}
+        .site-sec6 >p{color: white; margin: 42px auto; text-align: center; font-size: 1.8rem;}
+        .site-sec6 >p a{background-color: coral; color: white; padding: 12px; text-align: center;}
+        .site-sec6 >p a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
+
+
 
 }
