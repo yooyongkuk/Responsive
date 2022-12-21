@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{margin: 0 ; padding: 0; font-family: Arial;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: absolute; left: 0; top: 0; z-index: 3; opacity: 0.9;}
+
+/* @media(max-width:768px){
+    html{font-size: 10px;}
+
+@media(min-width:769px){
+    html{font-size: 12px;} */
+
+@media(min-width:1140px){
+    html{font-size: 12px;}
+
+    #slider{width: 100%; height: 500px; background-image: url(../img/jomonsugi.jpg); 
+        background-size: cover; background-position: center;}
+        #slider_1{width: 1140px; height: 100%; display: flex; justify-content: center; 
+            align-items: center; margin: 0 auto;}
+            .slider_text{width: 30%; margin: 0;}
+                #slider h2{font-size: 4rem; line-height: 65px; color: #fff; }
+                #slider p{font-size:2rem; width: 85%; color: #fff;}
+
+            .slider_img{width: 30%; margin: 120px 0 0 100px;}
+            .slider_img img{width: 250px; height: 250px;}
+
+    section{width: 1140px; height: auto; margin: 100px auto 0px; display: flex;
+        justify-content: space-between; align-items: flex-start;}
+        #left{width: 68%; height: auto; display: flex; flex-direction: column; justify-content: flex-start; background: beige;}
+            #jomonsugi{width: 100%;height: auto;}
+            #jomonsugi > h2{color: #666; font-size: 3rem;}
+            #jomonsugi > p:nth-of-type(1){font-size: 1.5rem; margin: 5px 0 30px 0px; color: #666;}
+            #jomonsugi_1{width: 100%; height: 760px; border-radius: 5px;
+                box-shadow: 5px 5px 20px rgba(92, 86, 85, 0.2);overflow: hidden;}
+            #jomonsugi_1 img:nth-of-type(1){width: 100%; height: 400px; cursor: pointer;}
+            #jomonsugi_1 > p:nth-of-type(1){font-size: 1.5rem; margin: 35px 0 5px 30px; color: #666;}
+            #jomonsugi_1 h3{font-size: 2rem; margin: 0 0 15px 30px; color: #666;}
+            #jomonsugi_1 > p:nth-of-type(2){font-size: 1.5rem; width: 740px; line-height: 22px; margin: 0 0 0 30px; color: #666;}
+            #jomonsugi_1 img:nth-of-type(2){width: 40px; height: 40px; border-radius: 50px; float: left;
+                margin: 30px 0 0 30px; cursor: pointer;}
+
+
+        #right{width: 24%; height: auto; display: flex; flex-direction: column; justify-content: flex-start; background: burlywood;}
+}
