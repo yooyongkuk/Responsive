@@ -35,10 +35,10 @@ html{font-size: 10px;}
         .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-items: center; width: 100%; height: auto;margin: 0 auto; }
         .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
-        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:220px; overflow: hidden;text-align: center; 
+        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:260px; overflow: hidden;text-align: center; 
                 background-color: beige; margin: 10px 0 0 0 ;}
         .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3.8rem; color: coral;}
-        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 2.4rem; color: #666;text-align: center ;}
+        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 2.4rem; color: #666;text-align: left ;}
         .site-sec2 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 2.4rem;}
         .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center; }
         .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
@@ -52,7 +52,7 @@ html{font-size: 10px;}
         .slide {width: 300%; }
         .slide li {width: 33.33%; height: 500px; float: left;}
         .slide li> img {background-size: cover; background-position: center; width: 100%; height: 100%;}
-        .slnaiyou {display: inline-block; padding: 10px 10px 10px 10px; color: coral; font-weight: bold; font-size: 2.6rem; width: 220px; height: 40px; line-height: 20px; 
+        .slnaiyou {display: inline-block; padding: 10px 10px 10px 10px; color: coral; font-weight: bold; font-size: 2.2rem; width: 220px; height: 40px; line-height: 20px; 
                 position: absolute; top:80%; left: 50%;transform: translate(-50%);  text-align: justify; background-color:#fff; opacity: 0.8; border-radius: 10px; }
         span {position: absolute; top:50%;display: block; font-size: 38px; color:#666; line-height: 40px; 
         background: white;opacity: 0.5; cursor: pointer; height: 50px; transform: translateY(-50%); }
@@ -72,12 +72,12 @@ html{font-size: 10px;}
         .site-sec4 .container .wrap {width: 96%;height:100%; overflow: hidden; margin: 10px 0 0 0;}
         .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
         .site-sec4 .container .wrap .box h3{position: absolute;bottom: 15%;left: 50%; transform: translate(-50%,-50%);
-                margin: 0 auto; color: coral; font-size: 3rem;}
+                margin: 0 auto; color: coral; font-size: 2.8rem;}
         .site-sec4 .container .wrap .box h2{position: absolute;bottom: 5%;left: 50%; transform: translate(-50%,-50%);
-                        margin: 0 auto; color: white; font-size: 4rem;}
+                        margin: 0 auto; color: white; font-size: 3.6rem;}
         .site-sec4 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-        .site-sec4 .container .wrap .box h3:hover{font-size: 3.4rem; color: white;}
-        .site-sec4 .container .wrap .box h2:hover{font-size: 4.4rem; color: coral;}
+        .site-sec4 .container .wrap .box h3:hover{font-size: 3rem; color: white;}
+        .site-sec4 .container .wrap .box h2:hover{font-size: 3.8rem; color: coral;}
 
 #slider2{max-width: 100%; height: 600px;background-position: center; margin: 0 auto;
                 background-image: url(../img/rettsya.jpg); background-size:cover;}
@@ -90,7 +90,7 @@ html{font-size: 10px;}
 .site-sec5{position: relative; width:100%; height:auto; margin: 0 auto; padding: 0; }
         .site-sec5 .container{flex-flow: row wrap; overflow: hidden; justify-content: space-around; 
                 align-content:space-around; width: 100%; height: auto;margin: 0 auto; }
-        .site-sec5 .container .wrap {background-color: beige; box-sizing: border-box; width: 96%;height:220px; overflow: hidden;text-align: center; 
+        .site-sec5 .container .wrap {background-color: beige; box-sizing: border-box; width: 96%;height:260px; overflow: hidden;text-align: center; 
                 padding: 0px 0 10px 0; margin: 10px 0 0 10px;}
         
         .site-sec5> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 5rem; color: #666;
@@ -98,7 +98,7 @@ html{font-size: 10px;}
         .site-sec5> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3.8rem; color: #666;
                 padding: 0 0 20px 0;}
         .site-sec5 .container .wrap h2{margin: 10px 0 10px 0; font-size: 4rem; color: coral;}
-        .site-sec5 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: center ; font-size: 2.4rem;}
+        .site-sec5 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ; font-size: 2.4rem;}
         .site-sec5 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 2.4rem;}
         .site-sec5 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
         .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
@@ -111,7 +111,7 @@ html{font-size: 10px;}
                 padding: 38px 0 0 0;}
         .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3.8rem; color: coral;
                         padding: 0 0 30px 0; }
-        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 2.4rem; color: #666;
+        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: left; font-size: 2.4rem; color: #666;
                                 padding: 10px 0;}
         .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
         .site-sec6 p{font-size: 1.4rem; color: #666 ;}
@@ -236,7 +236,7 @@ html{font-size: 10px;}
                         padding: 38px 0 0 0;}
         .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
                                 padding: 0 0 30px 0; }
-        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
+        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: left; font-size: 1.6rem; color: #666;
                                         padding: 10px 0;}
         .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
         .site-sec6 p{font-size: 1.4rem; color: #666 ;}
@@ -356,7 +356,7 @@ html{font-size: 10px;}
                 padding: 38px 0 0 0;}
         .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
                         padding: 0 0 30px 0; }
-        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: center; font-size: 1.6rem; color: #666;
+        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: left; font-size: 1.6rem; color: #666;
                                 padding: 10px 0;}
         .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
         .site-sec6 p{font-size: 1.4rem; color: #666 ;}

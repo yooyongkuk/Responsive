@@ -30,7 +30,7 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0 a
                 justify-content: space-around; align-content: center; }
     footer .fter .f_1{width: 96%; height: auto; padding: 10px;}
     footer .fter h2{color:white; font-size: 3.4rem; text-align: center; margin: 0 0 20px 0;}
-    footer .wrap p{font-size: 2.4rem; color: rgb(199, 197, 197); text-align: center;}
+    footer .wrap p{font-size: 2.4rem; color: rgb(199, 197, 197); text-align: left;}
     footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: space-around;}
     footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
@@ -38,6 +38,7 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0 a
     footer .fter .f_1 button{font-size: 2rem; color: white;border: 2px solid coral ;background-color: coral;}
     footer .fter .f_1 input{border: 2px solid white;}
     footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
+    footer .fter .f_1 .searc{text-align: center;}
     footer .midia{display: flex; justify-content: center; align-items: center; margin: 10px;}
     footer .midia img{margin: 10px;}
     footer .wrap h3{font-size: 2rem; text-align: center;color: rgb(199, 197, 197);margin: 0 0 0 0;padding: 0 0 20px 0;}
