@@ -7,7 +7,7 @@ header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: abso
 
 @media(max-width:768px){
 #wrap{width: 100%;height: auto; }
-html{font-size: 6px;}
+html{font-size: 10px;}
 
 header {position: fixed;}
     header .small {display: flex; align-items: center; justify-content: space-between;line-height: 40px; padding: 0 10px;}
@@ -16,9 +16,9 @@ header {position: fixed;}
     header .container .a{display: block;}
     header .container .a:hover{cursor: pointer;}
     header .container .b ul{display:flex;flex-direction: column; justify-content: space-around; }
-    header .container .b ul li a{padding:24px; text-decoration:none; color:#666; position: relative; font-size: 3rem;} 
+    header .container .b ul li a{padding:24px; text-decoration:none; color:#666; position: relative; font-size: 1.8rem;} 
     header .container .b ul li a:hover{color: coral;}
-    header .container .small h1 a{text-decoration: none; color: #666; font-size: 5rem;}
+    header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
     header .container.icon{display: flex;}
     header .container.icon img:hover{transform: scale(1.05);}
     header .container.icon img{padding:6px;}
@@ -29,19 +29,19 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0 a
     footer .fter{width: 100%; height: auto; display: flex; flex-flow: row wrap;
                 justify-content: space-around; align-content: center; }
     footer .fter .f_1{width: 96%; height: auto; padding: 10px;}
-    footer .fter h2{color:white; font-size: 3.4rem; text-align: center; margin: 0 0 20px 0;}
-    footer .wrap p{font-size: 2.4rem; color: rgb(199, 197, 197); text-align: left;}
+    footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
+    footer .wrap p{font-size: 1.4rem; color: rgb(199, 197, 197); text-align: left;}
     footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: space-around;}
     footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a:hover{text-decoration: none; color: coral;}
-    footer .fter .f_1 button{font-size: 2rem; color: white;border: 2px solid coral ;background-color: coral;}
+    footer .fter .f_1 button{font-size: 1.2rem; color: white;border: 2px solid coral ;background-color: coral;}
     footer .fter .f_1 input{border: 2px solid white;}
-    footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
+    footer .fter .f_1 button:hover{background-color: white; border: 2px solid coral; color: coral;}
     footer .fter .f_1 .searc{text-align: center;}
     footer .midia{display: flex; justify-content: center; align-items: center; margin: 10px;}
     footer .midia img{margin: 10px;}
-    footer .wrap h3{font-size: 2rem; text-align: center;color: rgb(199, 197, 197);margin: 0 0 0 0;padding: 0 0 20px 0;}
+    footer .wrap h3{font-size: 1rem; text-align: center;color: rgb(199, 197, 197);margin: 0 0 0 0;padding: 0 0 20px 0;}
         
 }
 
@@ -55,7 +55,7 @@ header {position: fixed; display: flex; width: 100%; display: flex; padding: 0%;
     header .container .b .icon{display: block;}
     header .container .a{display: none;}
     header .container .b ul{display:flex; justify-content: space-around; align-items: center;}
-    header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.5rem;} 
+    header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.6rem;} 
     header .container .b ul li a:hover{color: coral;}
     header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
     header .container.icon{display: flex;}
@@ -68,8 +68,8 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; 
     footer .fter{width: 100%; height: 180px; display: flex; flex-flow: row wrap;
                         justify-content: space-around; align-items: center; }
     footer .fter .f_1{width: 30%; height: auto; padding: 10px;}
-    footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
-    footer .wrap p{font-size: 1.2rem; color: rgb(199, 197, 197);}
+    footer .fter h2{color:white; font-size: 2rem; text-align: center; margin: 0 0 20px 0;}
+    footer .wrap p{font-size: 1.3rem; color: rgb(199, 197, 197);}
     footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: space-around;}
     footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
@@ -79,7 +79,7 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; 
     footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
     footer .midia{display: flex; justify-content: center; align-items: center; margin: 20px;}
     footer .midia img{margin: 20px;}
-    footer .wrap h3{text-align: center;color: rgb(199, 197, 197);;}
+    footer .wrap h3{font-size: 1.3rem; text-align: center;color: rgb(199, 197, 197);;}
 
 }
 
@@ -93,7 +93,7 @@ header {position: fixed; display: flex; width: 100%; display: flex; padding: 0%;
     header .container .b .icon{display: block;}
     header .container .a{display: none;}
     header .container .b ul{display:flex; justify-content: space-around; align-items: center;}
-    header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.5rem;} 
+    header .container .b ul li a{padding:15px; text-decoration:none; color:#666; position: relative; font-size: 1.6rem;} 
     header .container .b ul li a:hover{color: coral;}
     header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
     header .container.icon{display: flex;}
@@ -107,8 +107,8 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; 
     footer .fter{width: 100%; height: 180px; display: flex; flex-flow: row wrap;
                 justify-content: space-around; align-items: center; }
     footer .fter .f_1{width: 30%; height: auto; padding: 10px;}
-    footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
-    footer .wrap p{font-size: 1.2rem; color: rgb(199, 197, 197);}
+    footer .fter h2{color:white; font-size: 3rem; text-align: center; margin: 0 0 20px 0;}
+    footer .wrap p{font-size: 1.5rem; color: rgb(199, 197, 197);}
     footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: space-around;}
     footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
@@ -118,6 +118,6 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; 
     footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
     footer .midia{display: flex; justify-content: center; align-items: center; margin: 20px;}
     footer .midia img{margin: 20px;}
-    footer .wrap h3{text-align: center;color: rgb(199, 197, 197);;}
+    footer .wrap h3{font-size: 2rem; text-align: center;color: rgb(199, 197, 197);;}
 
 }

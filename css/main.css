@@ -5,7 +5,7 @@ ul,li,ol{list-style: none;}
 a{text-decoration: none;}
 header {background: rgb(242, 244, 246); width: 100%;  padding: 0%;position: absolute; left: 0; top: 0; z-index: 3; opacity: 0.9;}
 
-@media(max-width:768px){
+@media(max-width:767px){
 #wrap{width: 100%;height: auto; }
 html{font-size: 10px;}
 
@@ -13,9 +13,9 @@ html{font-size: 10px;}
 
 #slider{max-width: 100%; height: 800px;background-position: center; margin: 0 auto;
         background-image: url(../img/welryong.jpg); background-size:cover;}
-#slider h1{color: white; padding: 280px 0 0 0; text-align: center; font-size: 5rem;}
-#slider h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2.8rem;}
-#slider p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 2.8rem;}
+#slider h1{color: white; padding: 280px 0 0 0; text-align: center; font-size: 3rem;}
+#slider h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
+#slider p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1.5rem;}
 #slider a:hover{background-color: transparent; border: 1px solid white; color: white;}
 #slider a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 2.4rem;}
 
@@ -27,34 +27,34 @@ html{font-size: 10px;}
         .site-sec .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
         .site-sec .container .box .img{width:100%; height: 100%;background-size: cover; background-position: center;}
         .site-sec .container .wrap .box h3{position: absolute; bottom: 10%;left: 50%; transform: translate(-50%,-70%);
-                margin: 0 auto; color: white; font-size: 3.8rem;}
+                margin: 0 auto; color: white; font-size: 3rem;}
         .site-sec .container .box .img:hover{transform:scale(1.03) ;}
-        .site-sec .container .wrap .box h3:hover{font-size: 4rem; color: coral;}
+        .site-sec .container .wrap .box h3:hover{font-size: 3.2rem; color: coral;}
 
-.site-sec2{position: relative; width:100%; height:640px; margin: 0; padding: 0; }
+.site-sec2{position: relative; width:100%; height:auto; margin: 0; padding: 0; }
         .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-items: center; width: 100%; height: auto;margin: 0 auto; }
         .site-sec .container {position: absolute; left: 50%; top: -10%; transform: translateX(-50%);}
-        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:260px; overflow: hidden;text-align: center; 
+        .site-sec2 .container .wrap {box-sizing: border-box; width: 96%;height:300px; overflow: hidden;text-align: center; 
                 background-color: beige; margin: 10px 0 0 0 ;}
-        .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3.8rem; color: coral;}
-        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 2.4rem; color: #666;text-align: left ;}
-        .site-sec2 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 2.4rem;}
+        .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
+        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 2rem; color: #666;text-align: left ;}
+        .site-sec2 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1.5rem;}
         .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center; }
         .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
 .site-sec3{width: 100%; height: auto; margin: 0 auto; padding: 0; }
         ul,li,ol {list-style: none; margin: 0; padding: 0;}
-        .site-sec3 .container{width: 100%; height: 660px;margin: 50px 0 0 0;}
-        .site-sec3 .container h2{display: inline-block; width: 100%; height: 10%; margin: 0 auto; text-align: center; font-size: 5rem; color: #666;
+        .site-sec3 .container{width: 100%; height: 660px;margin: 0 0 0 0;}
+        .site-sec3 .container h2{display: inline-block; width: 100%; height: 10%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
         padding: 50px 0 0 0;}
         #slidewrap {width: 96%; height: 500px; margin: 0px auto; position: relative; overflow: hidden;}
         .slide {width: 300%; }
         .slide li {width: 33.33%; height: 500px; float: left;}
         .slide li> img {background-size: cover; background-position: center; width: 100%; height: 100%;}
-        .slnaiyou {display: inline-block; padding: 10px 10px 10px 10px; color: coral; font-weight: bold; font-size: 2.2rem; width: 220px; height: 40px; line-height: 20px; 
+        .slnaiyou {display: inline-block; padding: 10px 10px 10px 10px; color: coral; font-weight: bold; font-size: 1.5rem; width: 220px; height: 40px; line-height: 20px; 
                 position: absolute; top:80%; left: 50%;transform: translate(-50%);  text-align: justify; background-color:#fff; opacity: 0.8; border-radius: 10px; }
-        span {position: absolute; top:50%;display: block; font-size: 38px; color:#666; line-height: 40px; 
+        span {position: absolute; top:50%;display: block; font-size: 3rem; color:#666; line-height: 40px; 
         background: white;opacity: 0.5; cursor: pointer; height: 50px; transform: translateY(-50%); }
         span:hover {background: coral; color:white;}
         .prev {left:0; border-radius: 0 10px 10px 0px; padding: 4px 8px 0 2px;}
@@ -65,24 +65,24 @@ html{font-size: 10px;}
         .site-sec4 .container{padding: 20px 0 20px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-content: center; width: 100%; height: auto; margin: 0 auto; }
         .site-sec4 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-        .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 5rem; color: #666;
+        .site-sec4> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                 padding: 0 0 0 0;}
-        .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3.8rem; color: #666;
+        .site-sec4> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
                         padding: 0 0 10px 0;}
         .site-sec4 .container .wrap {width: 96%;height:100%; overflow: hidden; margin: 10px 0 0 0;}
         .site-sec4 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
         .site-sec4 .container .wrap .box h3{position: absolute;bottom: 15%;left: 50%; transform: translate(-50%,-50%);
-                margin: 0 auto; color: coral; font-size: 2.8rem;}
+                margin: 0 auto; color: coral; font-size: 2rem;}
         .site-sec4 .container .wrap .box h2{position: absolute;bottom: 5%;left: 50%; transform: translate(-50%,-50%);
-                        margin: 0 auto; color: white; font-size: 3.6rem;}
+                        margin: 0 auto; color: white; font-size: 2.8rem;}
         .site-sec4 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-        .site-sec4 .container .wrap .box h3:hover{font-size: 3rem; color: white;}
-        .site-sec4 .container .wrap .box h2:hover{font-size: 3.8rem; color: coral;}
+        .site-sec4 .container .wrap .box h3:hover{font-size: 2.2rem; color: white;}
+        .site-sec4 .container .wrap .box h2:hover{font-size: 3rem; color: coral;}
 
 #slider2{max-width: 100%; height: 600px;background-position: center; margin: 0 auto;
                 background-image: url(../img/rettsya.jpg); background-size:cover;}
-        #slider2 h1{color: white; padding: 200px 0 0 0; text-align: center; font-size: 5rem;}
-        #slider2 h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 3rem;}
+        #slider2 h1{color: white; padding: 200px 0 0 0; text-align: center; font-size: 3rem;}
+        #slider2 h3{color: white; padding: 30px 0 0 0; text-align: center; font-size: 2rem;}
         #slider2 p{color: white; padding: 60px 0 0 0; text-align: center; font-size: 1rem;}
         #slider2 a:hover{background-color: transparent; border: 1px solid white; color: white;}
         #slider2 a{background-color: coral; color: white; padding: 12px; text-align: center; font-size: 2.4rem;}
@@ -90,16 +90,16 @@ html{font-size: 10px;}
 .site-sec5{position: relative; width:100%; height:auto; margin: 0 auto; padding: 0; }
         .site-sec5 .container{flex-flow: row wrap; overflow: hidden; justify-content: space-around; 
                 align-content:space-around; width: 100%; height: auto;margin: 0 auto; }
-        .site-sec5 .container .wrap {background-color: beige; box-sizing: border-box; width: 96%;height:260px; overflow: hidden;text-align: center; 
+        .site-sec5 .container .wrap {background-color: beige; box-sizing: border-box; width: 96%;height:310px; overflow: hidden;text-align: center; 
                 padding: 0px 0 10px 0; margin: 10px 0 0 10px;}
         
-        .site-sec5> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 5rem; color: #666;
+        .site-sec5> h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                 padding: 38px 0 0 0;}
-        .site-sec5> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3.8rem; color: #666;
+        .site-sec5> h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: #666;
                 padding: 0 0 20px 0;}
         .site-sec5 .container .wrap h2{margin: 10px 0 10px 0; font-size: 4rem; color: coral;}
-        .site-sec5 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ; font-size: 2.4rem;}
-        .site-sec5 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 2.4rem;}
+        .site-sec5 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ; font-size: 2rem;}
+        .site-sec5 .container .wrap p{color: white; margin: 20px 0 0 0; text-align: center; font-size: 1.5rem;}
         .site-sec5 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
         .site-sec5 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
@@ -107,31 +107,31 @@ html{font-size: 10px;}
         .site-sec6 .container{padding: 0px 0 0px 0; flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-around; 
                 align-content: space-around; width: 100%; height: auto; margin: 10px auto; }
         .site-sec6 .container .box .img{ width:100%; height: 100%;background-size: cover; background-position: center;}
-        .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 5rem; color: #666;
+        .site-sec6 h2{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
                 padding: 38px 0 0 0;}
-        .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 3.8rem; color: coral;
+        .site-sec6 h3{display: inline-block; width: 100%; height: 5%; margin: 0 auto; text-align: center; font-size: 2rem; color: coral;
                         padding: 0 0 30px 0; }
-        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: left; font-size: 2.4rem; color: #666;
+        .site-sec6 h4{width: 100%; height: 5%; margin: 10px 0 10px 0; text-align: left; font-size: 1.8rem; color: #666;
                                 padding: 10px 0;}
         .site-sec6 .hitokoto{display: inline-block;text-overflow: ellipsis;}
-        .site-sec6 p{font-size: 1.4rem; color: #666 ;}
-        .site-sec6 p span{font-size: 1.4rem; color: coral;}
+        .site-sec6 p{font-size: 1.5rem; color: #666 ;}
+        .site-sec6 p span{font-size: 1.5rem; color: coral;}
         .site-sec6 .container .wrap {width: 96%;height:auto; overflow:hidden; margin: 5px 0 5px 0;}
         .site-sec6 .container .wrap .burog1{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
         .site-sec6 .container .wrap .burog2{width: 100%; height: 20px; display: flex;flex-direction: row; justify-content: space-around; align-items: center;}
-        .site-sec6 .container .wrap .burog1>p{font-size: 2.4rem;}
-        .site-sec6 .container .wrap .burog2>p{font-size: 2.4rem;}
+        .site-sec6 .container .wrap .burog1>p{font-size: 1.5rem;}
+        .site-sec6 .container .wrap .burog2>p{font-size: 1.5rem;}
         .site-sec6 .container .wrap .box{position: relative; width: 100%; height: 400px; display: inline-block; overflow: hidden;}
         .site-sec6 .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
         .site-sec6 p span:hover{font-size: 1.45rem; color: red;}
-        .site-sec6 >p{color: white; margin: 42px auto; text-align: center; font-size: 2.4rem;}
+        .site-sec6 >p{color: white; margin: 42px auto; text-align: center; font-size: 1.5rem;}
         .site-sec6 >p a{background-color: coral; color: white; padding: 12px; text-align: center;}
         .site-sec6 >p a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
 
 }
 
-@media(min-width:769px){
+@media(min-width:768px){
         #wrap{width: 100%;height: auto;}
         .container{width: 100%; height: 100%; margin: 0 auto;}
         html{font-size: 12px;}
@@ -169,7 +169,7 @@ html{font-size: 10px;}
         .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
         .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
         
-.site-sec3{width: 100%; height: 760px; margin: 0 auto; padding: 0; background-color: aliceblue;}
+.site-sec3{width: 100%; height: 760px; margin: 0 auto; padding: 0; }
         ul,li,ol {list-style: none; margin: 0; padding: 0;}
         .site-sec3 .container{width: 100%; height: 760px;margin: 0 auto;}
         .site-sec3 .container h2{display: inline-block; width: 100%; height: 10%; margin: 0 auto; text-align: center; font-size: 3rem; color: #666;
@@ -178,10 +178,10 @@ html{font-size: 10px;}
         .slide {width: 300%; }
         .slide li {width: 33.33%; height: 600px; float: left;}
         .slide li> img {width: 100%; height: 100%;}
-        .slnaiyou {display: inline-block; padding: 20px 0 20px 0; color: coral; font-weight: bold; font-size: 1.2rem; width: 300px; height: 60px; line-height: 30px; 
-                        position: absolute; top:80%; left: 65%;  text-align: center; background-color:#fff; opacity: 0.8; border-radius: 10px; }
+        .slnaiyou {display: inline-block; padding: 20px 0 20px 0; color: coral; font-weight: bold; font-size: 1.3rem; width: 300px; height: 60px; line-height: 30px; 
+                        position: absolute; top:80%; left: 58%;  text-align: center; background-color:#fff; opacity: 0.8; border-radius: 10px; }
         span {position: absolute; top:50%; display: block; font-size: 38px; color:#666; line-height: 40px; 
-                background: white;opacity: 0.5; cursor: pointer; height: 50px; transform: translateY(-50%); }
+                background: white;opacity: 0.5; cursor: pointer; height: 50px; transform: translateY(-50%);}
         span:hover {background: coral; color:white;}
         .prev {left:0; border-radius: 0 10px 10px 0px; padding: 4px 8px 0 2px;}
         .next {right:0; border-radius: 10px 0px 0px 10px; padding: 4px 2px 0 8px;}
@@ -278,7 +278,7 @@ html{font-size: 10px;}
                 margin: 0 auto; color: white; font-size: 2rem;}
         .site-sec .container {position: absolute; left: 50%; top: 50%; transform: translate(-50%,-70%);}
         .site-sec .container .wrap .box .img:hover{transform:scale(1.03) ;color: coral;}
-        .site-sec .container .wrap .box h3:hover{font-size: 2.2rem; color: coral;}
+        .site-sec .container .wrap .box h3:hover{font-size: 2rem; color: coral;}
 
 .site-sec2{position: relative; width:100%; height:440px; margin: 0 auto; padding: 0; }
         .site-sec2 .container{flex-flow: row wrap; overflow: hidden; display: flex; justify-content: space-between; 
@@ -286,12 +286,12 @@ html{font-size: 10px;}
         .site-sec2 .container .wrap {box-sizing: border-box; width: 32%;height:100%; overflow: hidden;text-align: center; 
                 padding: 0 10px 0 10px;}
         .site-sec2 .container .wrap h2{margin: 10px 0 10px 0; font-size: 3rem; color: coral;}
-        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 1.8rem; color: #666;text-align: left ;}
-        .site-sec2 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: 1.5rem;}
+        .site-sec2 .container .wrap h3{margin: 10px ; font-size: 2rem; color: #666;text-align: left ;}
+        .site-sec2 .container .wrap p{color: white; margin: 40px 0 0 0; text-align: center; font-size: .1.5rem;}
         .site-sec2 .container .wrap a{background-color: coral; color: white; padding: 12px; text-align: center;}
         .site-sec2 .container .wrap a:hover{background-color: transparent; border: 1px solid coral; color: coral;}
 
-.site-sec3{width: 100%; height: 760px; margin: 0 auto; padding: 0; background-color: aliceblue;}
+.site-sec3{width: 100%; height: 760px; margin: 0 auto; padding: 0;}
         ul,li,ol {list-style: none; margin: 0; padding: 0;}
         .site-sec3 .container{width: 1140px; height: 760px;margin: 0 auto;}
         #slidewrap {width: 1140px; height: 600px; margin: 0px auto; position: relative; }
