@@ -16,7 +16,8 @@ header {position: fixed;}
     header .container .a{display: block;}
     header .container .a:hover{cursor: pointer;}
     header .container .b ul{display:flex;flex-direction: column; justify-content: space-around; }
-    header .container .b ul li a{padding:24px; text-decoration:none; color:#666; position: relative; font-size: 1.8rem;} 
+    header .container .b ul li{margin:4px;}
+    header .container .b ul li a{padding:24px 0 30px 20px; text-decoration:none; color:#666; position: relative; font-size: 1.8rem;} 
     header .container .b ul li a:hover{color: coral;}
     header .container .small h1 a{text-decoration: none; color: #666; font-size: 3rem;}
     header .container.icon{display: flex;}
@@ -30,13 +31,13 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0 a
                 justify-content: space-around; align-content: center; }
     footer .fter .f_1{width: 96%; height: auto; padding: 10px;}
     footer .fter h2{color:white; font-size: 1.6rem; text-align: center; margin: 0 0 20px 0;}
-    footer .wrap p{font-size: 1.4rem; color: rgb(199, 197, 197); text-align: left;}
-    footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: space-around;}
+    footer .wrap p{font-size: 1.4rem; color: rgb(199, 197, 197); text-align: center;}
+    footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: center;}
     footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a:hover{text-decoration: none; color: coral;}
     footer .fter .f_1 button{font-size: 1.2rem; color: white;border: 2px solid coral ;background-color: coral;}
-    footer .fter .f_1 input{border: 2px solid white;}
+    footer .fter .f_1 input{border: 2px solid white; }
     footer .fter .f_1 button:hover{background-color: white; border: 2px solid coral; color: coral;}
     footer .fter .f_1 .searc{text-align: center;}
     footer .midia{display: flex; justify-content: center; align-items: center; margin: 10px;}
@@ -69,7 +70,7 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; 
                         justify-content: space-around; align-items: center; }
     footer .fter .f_1{width: 30%; height: auto; padding: 10px;}
     footer .fter h2{color:white; font-size: 2rem; text-align: center; margin: 0 0 20px 0;}
-    footer .wrap p{font-size: 1.3rem; color: rgb(199, 197, 197);}
+    footer .wrap p{font-size: 1.6rem; color: rgb(199, 197, 197); text-align: center;}
     footer .fter .f_1 .navi{display: flex;flex-flow: row wrap; justify-content:space-around; align-content: space-around;}
     footer .fter .f_1 .navi>div{margin: 0 0 0 0; color:rgb(199, 197, 197);}
     footer .fter .f_1 .navi>div a{text-decoration: none; color: rgb(199, 197, 197);}
@@ -79,7 +80,7 @@ footer {width: 100%; height: auto; background-color: rgb(53, 53, 59);margin: 0; 
     footer .fter .f_1 button:hover{background-color: white; border: 3px solid coral; color: coral;}
     footer .midia{display: flex; justify-content: center; align-items: center; margin: 20px;}
     footer .midia img{margin: 20px;}
-    footer .wrap h3{font-size: 1.3rem; text-align: center;color: rgb(199, 197, 197);;}
+    footer .wrap h3{font-size: 1.5rem; text-align: center;color: rgb(199, 197, 197);;}
 
 }
 
