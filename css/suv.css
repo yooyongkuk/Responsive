@@ -13,11 +13,13 @@ html{font-size: 10px;}
         #slider_1{width: 100%; height: 100%; display: flex; justify-content: space-around; 
             align-items: center; margin: 0 auto;}
             .slider_test{width: 50%; margin: 0 0 0 30px;}
+            
                 #slider h2{font-size: 3.8rem; line-height: 40px; color: #fff; }
-                #slider p{font-size:2rem; width: 85%; color: #fff;}
-
+                #slider p{font-size:2rem; width: 85%; color: coral;}
+            #slider h2:hover{color: coral; cursor: pointer;}
             .slider_img{width: 30%; margin: 120px 0 0 100px;}
             .slider_img img{width: 70%; height: auto;}
+            .slider_img img:hover{cursor: pointer;}
 
     section{width: 100%; height: auto; margin: 50px auto ; display: flex;
         justify-content: space-between; align-items: center; flex-direction: column;}
@@ -73,9 +75,11 @@ html{font-size: 10px;}
 
             #banner1{box-shadow: 5px 5px 20px rgba(92, 86, 85, 0.2); background-image: url(../img/mati3.jpg);background-size: cover;width: 100%; height: 154px; margin: 60px 0 0 0; border-radius: 5px; cursor: pointer;}
             #banner1 img{width: 100px; height: 100px; border-radius: 50%; float: left; margin: 25px 0 0 30px;}
-            #banner1 h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2rem; margin: 40px 0 0 170px; color: white;}
-            #banner1 p{font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 2rem; margin: 10px 0 0 170px; 
+            #banner1 h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2rem; margin: 20px 0 0 170px; color: white;}
+            #banner1 p{display: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; margin: 10px 0 0 170px; 
                 padding: 0 20px 0 0; line-height: 22px; color: white;}
+            #banner1 span{color: coral;}
+            #banner1 span:hover{color: white;}
 
             #willson{width: 100%;height: auto; margin: 60px 0 0 0 ;}
             #willson > h2{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); color: #666; font-size: 3rem;}
@@ -85,7 +89,7 @@ html{font-size: 10px;}
                 #willson_1 .slide_1{width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #willson_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #willson_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #willson_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #willson_1 #slidewrap_1 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #willson_1 .slide {width: 300%; }
                 #willson_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #willson_1 .slide li> img {width: 100%; height: 100%;}
@@ -110,7 +114,7 @@ html{font-size: 10px;}
                 #huhusugi_1 .slide_1{width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #huhusugi_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #huhusugi_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #huhusugi_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #huhusugi_1 #slidewrap_2 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #huhusugi_1 .slide {width: 300%; }
                 #huhusugi_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #huhusugi_1 .slide li> img {width: 100%; height: 100%;}
@@ -144,7 +148,7 @@ html{font-size: 10px;}
                 #siratani_1 .slide_1 {width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #siratani_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #siratani_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #siratani_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #siratani_1 #slidewrap_3 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #siratani_1 .slide {width: 300%; }
                 #siratani_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #siratani_1 .slide li> img {width: 100%; height: 100%;}
@@ -214,7 +218,7 @@ html{font-size: 10px;}
             #tag h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
             #tag ul{display: flex; flex-wrap: wrap; margin: 20px 0 0 20px;list-style: none;}
             #tag li{font-size: 2rem; color: #666; cursor: pointer;}
-            #tag li:hover{color: coral;}
+            #tag li a:hover{color: coral;}
 }
 
 
@@ -226,11 +230,13 @@ html{font-size: 10px;}
         #slider_1{width: 100%; height: 100%; display: flex; justify-content: space-around; 
             align-items: center; margin: 0 auto;}
             .slider_test{width: 50%; margin: 0;}
+            
                 #slider h2{font-size: 4rem; line-height: 46px; color: #fff; margin: 0 0 0 20px;}
-                #slider p{font-size:2rem; width: 85%; color: #fff; margin: 0 0 0 20px;}
-
+                #slider p{font-size:2rem; width: 85%; color: coral; margin: 0 0 0 20px;}
+            #slider h2:hover{color: coral; cursor: pointer;}
             .slider_img{width: 30%; margin: 120px 0 0 100px;}
             .slider_img img{width: 138px; height: 250px;}
+            .slider_img img:hover{cursor: pointer;}
 
     section{width: 100%; height: auto; margin: 50px auto ; display: flex;
         justify-content: space-between; align-items: center; flex-direction: column;}
@@ -287,8 +293,10 @@ html{font-size: 10px;}
             #banner1{box-shadow: 5px 5px 20px rgba(92, 86, 85, 0.2); background-image: url(../img/mati3.jpg);background-size: cover;width: 100%; height: 154px; margin: 60px 0 0 0; border-radius: 5px; cursor: pointer;}
             #banner1 img{width: 100px; height: 100px; border-radius: 50%; float: left; margin: 25px 0 0 30px;}
             #banner1 h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2rem; margin: 40px 0 0 170px; color: white;}
-            #banner1 p{font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 2rem; margin: 10px 0 0 170px; 
+            #banner1 p{display: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 2rem; margin: 10px 0 0 170px; 
                 padding: 0 20px 0 0; line-height: 22px; color: white;}
+            #banner1 span{color: coral;}
+            #banner1 span:hover{color: white;}
 
             #willson{width: 100%;height: auto; margin: 60px 0 0 0 ;}
             #willson > h2{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); color: #666; font-size: 3rem;}
@@ -298,7 +306,7 @@ html{font-size: 10px;}
                 #willson_1 .slide_1{width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #willson_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #willson_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #willson_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #willson_1 #slidewrap_1 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #willson_1 .slide {width: 300%; }
                 #willson_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #willson_1 .slide li> img {width: 100%; height: 100%;}
@@ -323,7 +331,7 @@ html{font-size: 10px;}
                 #huhusugi_1 .slide_1{width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #huhusugi_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #huhusugi_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #huhusugi_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #huhusugi_1 #slidewrap_2 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #huhusugi_1 .slide {width: 300%; }
                 #huhusugi_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #huhusugi_1 .slide li> img {width: 100%; height: 100%;}
@@ -357,7 +365,7 @@ html{font-size: 10px;}
                 #siratani_1 .slide_1 {width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #siratani_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #siratani_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #siratani_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #siratani_1 #slidewrap_3 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #siratani_1 .slide {width: 300%; }
                 #siratani_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #siratani_1 .slide li> img {width: 100%; height: 100%;}
@@ -428,7 +436,7 @@ html{font-size: 10px;}
             #tag h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
             #tag ul{display: flex; flex-wrap: wrap; margin: 20px 0 0 20px;list-style: none;}
             #tag li{font-size: 2rem; color: #666; cursor: pointer;}
-            #tag li:hover{color: coral;}
+            #tag li a:hover{color: coral;}
 }
 
 
@@ -440,11 +448,13 @@ html{font-size: 10px;}
         #slider_1{width: 1140px; height: 100%; display: flex; justify-content: center; 
             align-items: center; margin: 0 auto;}
             .slider_test{width: 100%; margin: 0;}
+            
                 #slider h2{font-size: 5rem; line-height: 65px; color: #fff; }
-                #slider p{font-size:3rem; width: 85%; color: #fff;}
-
+                #slider p{font-size:3rem; width: 85%; color: coral;}
+            #slider h2:hover{color: coral; cursor: pointer;}
             .slider_img{width: 30%; margin: 120px 0 0 100px;}
             .slider_img img{width: 138px; height: 250px;}
+            .slider_img img:hover{cursor: pointer;}
 
     section{width: 1140px; height: auto; margin: 50px auto ; display: flex;
         justify-content: space-between; align-items: flex-start;}
@@ -501,7 +511,9 @@ html{font-size: 10px;}
             #banner1{box-shadow: 5px 5px 20px rgba(92, 86, 85, 0.2); background-image: url(../img/mati3.jpg);background-size: cover;width: 100%; height: 154px; margin: 60px 0 0 0; border-radius: 5px; cursor: pointer;}
             #banner1 img{width: 100px; height: 100px; border-radius: 50%; float: left; margin: 25px 0 0 30px;}
             #banner1 h3{font-size: 2.5rem; margin: 36px 0 0 190px; color: white;}
-            #banner1 p{font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 1.8rem; margin: 10px 0 0 190px; line-height: 22px; color: white;}
+            #banner1 p{display: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 1.8rem; margin: 10px 0 0 190px; line-height: 22px; color: white;}
+            #banner1 span{color: coral;}
+            #banner1 span:hover{color: white;}
 
             #willson{width: 100%;height: auto; margin: 60px 0 0 0 ;}
             #willson > h2{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); color: #666; font-size: 3.8rem;}
@@ -511,7 +523,7 @@ html{font-size: 10px;}
                 #willson_1 .slide_1{width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #willson_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #willson_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #willson_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #willson_1 #slidewrap_1 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #willson_1 .slide {width: 300%; }
                 #willson_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #willson_1 .slide li> img {width: 100%; height: 100%;}
@@ -536,7 +548,7 @@ html{font-size: 10px;}
                 #huhusugi_1 .slide_1{width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #huhusugi_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #huhusugi_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #huhusugi_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #huhusugi_1 #slidewrap_2 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #huhusugi_1 .slide {width: 300%; }
                 #huhusugi_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #huhusugi_1 .slide li> img {width: 100%; height: 100%;}
@@ -570,7 +582,7 @@ html{font-size: 10px;}
                 #siratani_1 .slide_1 {width: 100%; height: 400px; margin: 0 auto; padding: 0; }
                 #siratani_1 ul,li,ol {list-style: none; margin: 0; padding: 0;}
                 #siratani_1 .slide_1 .container{width: 100%; height: 400px;margin: 0 auto;}
-                #siratani_1 #slidewrap {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
+                #siratani_1 #slidewrap_3 {width: 100%; height: 400px; margin: 0px auto; position: relative; overflow: hidden;}
                 #siratani_1 .slide {width: 300%; }
                 #siratani_1 .slide li {width: 33.33%; height: 400px; float: left;}
                 #siratani_1 .slide li> img {width: 100%; height: 100%;}
@@ -641,7 +653,7 @@ html{font-size: 10px;}
             #tag h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
             #tag ul{display: flex; flex-wrap: wrap; margin: 20px 0 0 20px;list-style: none;}
             #tag li{font-size: 2rem; color: #666; cursor: pointer;}
-            #tag li:hover{color: coral;}
+            #tag li a:hover{color: coral;}
 
 }
 

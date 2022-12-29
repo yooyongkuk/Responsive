@@ -14,6 +14,25 @@
             }
         });
 
+    //코다마 토글-->
+
+    $(document).ready(function(){
+        $(".kodamaslide").click(function(){
+            $(".kodama").toggle(2000);
+        });
+    });
+
+    $(document).ready(function(){
+        $(".kodama").click(function(){
+        var kodama = $(".kodama");
+            kodama.animate({height:"100%",opacity:"0.4"},"slow");
+            kodama.animate({width:"100%",opacity:"0.8"},"slow");
+            kodama.animate({height:"70%",opacity:"1"},2000);    
+            kodama.animate({width:"70%",opacity:"1"},2000);      
+        });     
+         });
+        
+         //슬라이드-->
     $(document).ready(function () {
         $('#jomonsugi .prev').click(function(){
         $('#jomonsugi .slide li:last').prependTo('#jomonsugi .slide');
@@ -74,29 +93,41 @@
         });
     });
 
-//     $(document).ready(function () {
-//     function prev() {
-//         $('.slide li:last').prependTo('.slide');
-//         $('.slide').css('margin-left', '-100%');
-//         $('.slide').stop().animate({ marginLeft: 0 }, 800);
-//     }
+    //배너토글-->
+    $(document).ready(function(){
+        $(".togle").click(function(){
+            $("#banner1 > p").slideToggle("slow");
+        });
 
-//     function next() {
-//         $('.slide').stop().animate({ marginLeft: '-100%' }, 800, function () {
-//             $('.slide li:first').appendTo('.slide');
-//             $('.slide').css({ marginLeft: 0 });
-//         });
-//     }
+    });
 
-//     setInterval(next, 3000);
+    //버튼조작
+    $(document).ready(function(){
+       $(".hitosyasin").click(function(){
+        var kao = $(".hitosyasin");
+            kao.animate({height:"50px",opacity:"0.4"},"slow");
+            kao.animate({width:"50px",opacity:"0.8"},"slow");
+            kao.animate({height:"40px",opacity:"0.4"},"slow");
+            kao.animate({width:"40px",opacity:"1"},"slow");
+       });
+        });
 
-//     $('.prev').click(function () {
-//         prev();
-//     });
-//     $('.next').click(function () {
-//         next();
-//     });
-// });
-
+        $(document).ready(function(){
+        $(".hitokao").click(function(){
+        var kao = $(".hitosyasin");
+            kao.animate({height:"50px",opacity:"0.4"},"slow");
+            kao.animate({width:"50px",opacity:"0.8"},"slow");
+            kao.animate({height:"40px",opacity:"0.4"},"slow");
+            kao.animate({width:"40px",opacity:"1"},"slow");
+         });
+        });
     
-        
+      $(document).ready(function(){
+        $("#jomonsugi p:last").click(function(){
+            var kao = $(".hitosyasin");
+            kao.animate({height:"50px",opacity:"0.4"},"slow");
+            kao.animate({width:"50px",opacity:"0.8"},"slow");
+            kao.animate({height:"40px",opacity:"0.4"},"slow");
+            kao.animate({width:"40px",opacity:"1"},"slow");   
+        });
+      });
