@@ -17,7 +17,7 @@ html{font-size: 10px;}
                 #slider h2{font-size: 3.8rem; line-height: 40px; color: #fff; }
                 #slider p{font-size:2rem; width: 85%; color: coral;}
             #slider h2:hover{color: coral; cursor: pointer;}
-            .slider_img{width: 30%; margin: 120px 0 0 100px;}
+            .slider_img{width: 30%; margin: 120px 0 0 60px;}
             .slider_img img{width: 70%; height: auto;}
             .slider_img img:hover{cursor: pointer;}
 
@@ -56,7 +56,7 @@ html{font-size: 10px;}
             #yakukago .yakukago_1{box-shadow: 5px 5px 20px rgba(92, 86, 85, 0.2); background-image: url(../img/yakukago.png);background-size: cover;  width: 100%; height: auto; border-radius: 5px;}
             #yakukago .yakukago_1:hover{opacity: 0.7; cursor: pointer;}
             .yakukago_1 > p{display: block; font-size: 3rem;color: white; text-align: center; padding: 60px 0; width: 100%; height:auto; color: white;}
-            .yakukago_1 > p > a{color: white; padding: 0 0 0 90px;}
+            .yakukago_1 > p > a{color: white; padding: 0 0 0 0;}
             #yakukago > h2 a{color: #666; }
             #yakukago a:hover{color: coral; }
 
@@ -74,10 +74,10 @@ html{font-size: 10px;}
             #video_1 p:nth-of-type(3):hover{color: coral;}
 
             #banner1{box-shadow: 5px 5px 20px rgba(92, 86, 85, 0.2); background-image: url(../img/mati3.jpg);background-size: cover;width: 100%; height: 154px; margin: 60px 0 0 0; border-radius: 5px; cursor: pointer;}
-            #banner1 img{width: 100px; height: 100px; border-radius: 50%; float: left; margin: 25px 0 0 30px;}
-            #banner1 h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2rem; margin: 20px 0 0 170px; color: white;}
-            #banner1 p{display: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; margin: 10px 0 0 170px; 
-                padding: 0 20px 0 0; line-height: 22px; color: white;}
+            #banner1 img{width: 100px; height: 100px; border-radius: 50%; float: left; margin: 25px 0 0 20px;}
+            #banner1 h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2rem; margin: 20px 0 0 120px; color: white;}
+            #banner1 p{display: none; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 1rem; margin: 10px 0 0 120px; 
+                padding: 0 20px 0 0; line-height: 18px; color: white;}
             #banner1 span{color: coral;}
             #banner1 span:hover{color: white;}
 
@@ -167,18 +167,18 @@ html{font-size: 10px;}
             #siratani_1 > p:nth-of-type(3):hover{color: coral;}
 
         #right{width: 85%; height: auto; display: flex; flex-direction: column; justify-content: flex-start;}
-            #yoo{width: 100%; height: 390px; margin: 102px 0 0 0;}
-            #yoo img{width: 300px; height: 300px; border-radius: 100%; margin: 0 0 0 0; cursor: pointer;}
-            #yoo h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 15px 200px 0 20px; color: #666; font-weight: bold;}
+            #yoo{width: 100%; height: auto; margin: 102px 0 0 0;}
+            #yoo img{width: 100%; height: 100%; border-radius: 100%; margin: 0 0 0 0; cursor: pointer;}
+            #yoo h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 15px 0 0 20px; color: #666; font-weight: bold;}
             #yoo p{font-size: 2rem; margin: 15px 0 0 20px; line-height: 20px; color:coral}
 
-            #category{width: 100%; height: 250px; margin: 40px 0 0 0;}
+            #category{width: 100%; height: auto; margin: 40px 0 0 0;}
             #category h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 10px 0 0 20px; color: #666;font-weight: bold;}
             #category ul{list-style: none; margin: 20px 0 0 20px;}
             #category li{font-size: 2rem; margin: 12px 0 0; cursor: pointer; color: #666;}
             #category li:hover{color: coral;}
 
-            #post{width: 100%; height: 350px;}
+            #post{width: 100%; height: auto;}
             #post h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 30px 0 0 20px; color: #666;font-weight: bold;}
             #post ul{display: flex; flex-direction: column; margin: 20px 0 0 ; list-style: none;}
             #post ul li{list-style: none; margin: 0; padding: 0;}
@@ -191,8 +191,14 @@ html{font-size: 10px;}
             #search .input_icon span{width: 10%; height: 30px;}
             #search input{width: 85%; height: 30px; border: none; border-bottom: 1px solid coral; margin: 20px 0 30px 20px; display: block; color: #666; font-size: 1.4rem;}
 
-            #yoo_2{width: 100%; height: 140px;}
-            #yoo_2 img{width: 100%; height: 100%; cursor: pointer;background-size: cover;}
+            #yoo_2{width: 274px; height: auto;}
+            #yoo_2 #fadein_slider {width: 100%; margin: 0 auto; position: relative;}
+            #yoo_2 #pic {width: 100%; height: 140px; overflow: hidden; position: relative; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);}
+            #yoo_2 #pic>div {width: 100%; position: absolute; display: none; }
+            #yoo_2 #control {position: absolute; width: 100%; left: 0; bottom: 10px; text-align: center;}
+            #yoo_2 #control a {display: inline-block; width: 18px; height: 18px; background: #000; color: #fff; 
+                line-height: 18px; font-size: 0.8em; border-radius: 10px; margin: 0 2px}
+            #yoo_2 #control a.on {background: #ff6600;}
 
             #news{width: 100%; height: 110px; margin: 40px 0 ; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);}
             #news h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
@@ -214,16 +220,28 @@ html{font-size: 10px;}
             #follow li{font-size: 2rem; margin: 0 15px; cursor: pointer; list-style: none;}
             #follow li:hover{transform: scale(1.2);}
 
-            #tag{width: 100%; height: 110px;}
+            #tag{width: 100%; height: auto;}
             #tag h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 2.4rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
             #tag ul{display: flex; flex-wrap: wrap; margin: 20px 0 0 20px;list-style: none;}
-            #tag li{font-size: 2rem; color: #666; cursor: pointer;}
+            #tag li a{font-size: 2rem; color: #666; cursor: pointer;}
             #tag li a:hover{color: coral;}
+
+            #slblog {width: 100%; margin: 40px 0 0 20px}
+            #slblog .page {text-align: left;margin-bottom: 5px;}
+            #slblog .page .page_n {display: inline-block; margin-right: 10px; font-size: 2rem;}
+            #slblog .page button {border: none; color: #fff; width: 30px; height:30px;overflow: hidden;}
+            #slblog .vis {width: 220px; height: 220px; overflow: hidden;box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2); border-radius: 5px;}
+            #slblog .page button:hover{background-color: coral;}
+            
+            #topslide{height: auto;}
+            #up{position: fixed; right: 20px; bottom: 20px; width: 60px; height: 60px; transition: all 0.5s ease; opacity: 0; visibility: hidden;}
+            #up.on{opacity: 1; visibility: visible;}
+            #up a{display: block; padding: 20px; text-align: center;text-decoration: none; color: #fff;}
 }
 
 
 
-@media(min-width:768px) and (max-width:1139px){
+@media(min-width:768px){
 
     #slider{width: 100%; height: 600px; background-image: url(../img/jomonsugi.jpg); 
         background-size: cover; background-position: center;}
@@ -409,8 +427,14 @@ html{font-size: 10px;}
             #search .input_icon span{width: 10%; height: 30px;}
             #search input{width: 85%; height: 30px; border: none; border-bottom: 1px solid coral; margin: 20px 0 30px 20px; display: block; color: #666; font-size: 1.4rem;}
 
-            #yoo_2{width: 100%; height: 140px;}
-            #yoo_2 img{width: 100%; height: 100%; cursor: pointer;background-size: cover;}
+            #yoo_2{width: 274px; height: 140px;}
+            #yoo_2 #fadein_slider {width: 100%; margin: 0 auto; position: relative;}
+            #yoo_2 #pic {height: 140px; overflow: hidden; position: relative; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);}
+            #yoo_2 #pic>div {position: absolute; left: 0; top: 0; display: none; }
+            #yoo_2 #control {position: absolute; width: 100%; left: 0; bottom: 10px; text-align: center;}
+            #yoo_2 #control a {display: inline-block; width: 18px; height: 18px; background: #000; color: #fff; 
+                line-height: 18px; font-size: 0.8em; border-radius: 10px; margin: 0 2px}
+            #yoo_2 #control a.on {background: #ff6600;}
 
             #news{width: 100%; height: 110px; margin: 40px 0 ; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);}
             #news h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
@@ -435,8 +459,20 @@ html{font-size: 10px;}
             #tag{width: 100%; height: 110px;}
             #tag h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
             #tag ul{display: flex; flex-wrap: wrap; margin: 20px 0 0 20px;list-style: none;}
-            #tag li{font-size: 2rem; color: #666; cursor: pointer;}
+            #tag li a{font-size: 2rem; color: #666; cursor: pointer;}
             #tag li a:hover{color: coral;}
+
+            #slblog {width: 80%; margin: 40px 0 0 0;}
+            #slblog .page {text-align: left;margin-bottom: 5px;}
+            #slblog .page .page_n {display: inline-block; margin-right: 10px; font-size: 2rem;}
+            #slblog .page button {border: none; color: #fff; width: 30px; height:30px;overflow: hidden;}
+            #slblog .vis {width: 220px; height: 220px; overflow: hidden; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);border-radius: 5px;}
+            #slblog .page button:hover{background-color: coral;}
+            
+            #topslide{height: auto;}
+            #up{position: fixed; right: 20px; bottom: 20px; width: 60px; height: 60px; transition: all 0.5s ease; opacity: 0; visibility: hidden;}
+            #up.on{opacity: 1; visibility: visible;}
+            #up a{display: block; padding: 20px; text-align: center;text-decoration: none; color: #fff;}
 }
 
 
@@ -447,16 +483,16 @@ html{font-size: 10px;}
         background-size: cover; background-position: center;}
         #slider_1{width: 1140px; height: 100%; display: flex; justify-content: center; 
             align-items: center; margin: 0 auto;}
-            .slider_test{width: 100%; margin: 0;}
+        .slider_test{width: 100%; margin: 0;}
             
-                #slider h2{font-size: 5rem; line-height: 65px; color: #fff; }
-                #slider p{font-size:3rem; width: 85%; color: coral;}
-            #slider h2:hover{color: coral; cursor: pointer;}
-            .slider_img{width: 30%; margin: 120px 0 0 100px;}
-            .slider_img img{width: 138px; height: 250px;}
-            .slider_img img:hover{cursor: pointer;}
+        #slider h2{font-size: 5rem; line-height: 65px; color: #fff; }
+        #slider p{font-size:3rem; width: 85%; color: coral;}
+        #slider h2:hover{color: coral; cursor: pointer;}
+        .slider_img{width: 30%; margin: 120px 0 0 100px;}
+        .slider_img img{width: 138px; height: 250px;}
+        .slider_img img:hover{cursor: pointer;}
 
-    section{width: 1140px; height: auto; margin: 50px auto ; display: flex;
+    section{width: 1140px; height: auto; margin: 50px auto ; display: flex; flex-direction: row;
         justify-content: space-between; align-items: flex-start;}
         #left{width: 68%; height: auto; display: flex; flex-direction: column; justify-content: flex-start;}
             #jomonsugi{width: 100%;height: auto;}
@@ -603,7 +639,7 @@ html{font-size: 10px;}
         #right{width: 24%; height: auto; display: flex; flex-direction: column; justify-content: flex-start; }
             #yoo{width: 100%; height: 390px; margin: 102px 0 0 0;}
             #yoo img{width: 85%; height: 245px; border-radius: 100%; margin: 0 0 0 20px; cursor: pointer;}
-            #yoo h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 15px 200px 0 20px; color: #666; font-weight: bold;}
+            #yoo h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 15px 0 0 20px; color: #666; font-weight: bold;}
             #yoo p{font-size: 2rem; margin: 15px 0 0 20px; line-height: 24px; color:coral}
 
             #category{width: 100%; height: 250px; margin: 40px 0 40px 0;}
@@ -627,7 +663,13 @@ html{font-size: 10px;}
             #search input{width: 85%; height: 30px; border: none; border-bottom: 1px solid coral; margin: 20px 0 30px 20px; display: block; color: #666; font-size: 1.4rem;}
 
             #yoo_2{width: 100%; height: 140px;}
-            #yoo_2 img{width: 100%; height: 100%; cursor: pointer;background-size: cover;}
+            #yoo_2 #fadein_slider {width: 100%; margin: 0 auto; position: relative;}
+            #yoo_2 #pic {height: 140px; overflow: hidden; position: relative; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);}
+            #yoo_2 #pic>div {position: absolute; left: 0; top: 0; display: none; }
+            #yoo_2 #control {position: absolute; width: 100%; left: 0; bottom: 10px; text-align: center;}
+            #yoo_2 #control a {display: inline-block; width: 18px; height: 18px; background: #000; color: #fff; 
+                line-height: 18px; font-size: 0.8em; border-radius: 10px; margin: 0 2px}
+            #yoo_2 #control a.on {background: #ff6600;}
 
             #news{width: 100%; height: 110px; margin: 40px 0 ; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2);}
             #news h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
@@ -649,11 +691,22 @@ html{font-size: 10px;}
             #follow li{font-size: 2rem; margin: 0 15px; cursor: pointer; list-style: none;}
             #follow li:hover{transform: scale(1.2);}
 
-            #tag{width: 100%; height: 110px;}
+            #tag{width: 100%; height: auto;}
             #tag h3{text-shadow: 5px 5px 5px rgba(92, 86, 85, 0.2); font-size: 3rem; margin: 10px 0 0 20px; color: #666; font-weight: bold;}
             #tag ul{display: flex; flex-wrap: wrap; margin: 20px 0 0 20px;list-style: none;}
-            #tag li{font-size: 2rem; color: #666; cursor: pointer;}
+            #tag li a{font-size: 2rem; color: #666; cursor: pointer;}
             #tag li a:hover{color: coral;}
 
+            #slblog {width: 80%; margin: 40px auto;}
+            #slblog .page {text-align: right;margin-bottom: 5px;}
+            #slblog .page .page_n {display: inline-block; margin-right: 10px; font-size: 2rem;}
+            #slblog .page button {border: none; color: #fff; width: 30px; height:30px;overflow: hidden;}
+            #slblog .vis {width: 220px; height: 220px; overflow: hidden; box-shadow:  5px 5px 20px rgba(92, 86, 85, 0.2); border-radius: 5px;}
+            #slblog .page button:hover{background-color: coral;} 
+
+            #topslide{height: auto;}
+            #up{position: fixed; right: 20px; bottom: 20px; width: 60px; height: 60px; transition: all 0.5s ease; opacity: 0; visibility: hidden;}
+            #up.on{opacity: 1; visibility: visible;}
+            #up a{display: block; padding: 20px; text-align: center;text-decoration: none; color: #fff;}
 }
 
